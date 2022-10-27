@@ -9,16 +9,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="393dp"
-        android:layout_height="224dp"
+        android:layout_width="413dp"
+        android:layout_height="153dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-2dp"
         android:layout_marginTop="94dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginBottom="361dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="356dp"
         android:contentDescription="@string/todo"
         app:srcCompat="@drawable/muff"
         tools:ignore="ImageContrastCheck" />
@@ -27,10 +27,12 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="295dp"
         android:layout_height="43dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="330dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="303dp"
         android:autofillHints=""
         android:background="@color/white"
         android:backgroundTint="@color/white"
@@ -39,8 +41,8 @@
         android:selectAllOnFocus="false"
         android:singleLine="false"
         android:text="@string/ingrese_usuario"
-        android:textColor="#A1887F"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        android:textColor="#7A7877"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -49,10 +51,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="54dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="249dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="231dp"
         android:autofillHints=""
         android:background="@color/white"
         android:backgroundTint="@color/white"
@@ -62,7 +63,7 @@
         android:singleLine="false"
         android:text="@string/ingrese_contrase_a"
         android:textColor="#A1887F"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/ingresar"
