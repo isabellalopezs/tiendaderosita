@@ -67,15 +67,15 @@
 
     <Button
         android:id="@+id/ingresar"
-        android:layout_width="wrap_content"
+        android:layout_width="112dp"
         android:layout_height="58dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="126dp"
-        android:layout_marginBottom="140dp"
-        android:background="@color/morado_2"
-        android:backgroundTint="#3F51B5"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="151dp"
+        android:background="@color/rosado_1"
         android:text="@string/ingresar"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
     <Button
@@ -86,10 +86,11 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="117dp"
         android:layout_marginBottom="52dp"
-        android:background="@color/morado_1"
-        android:backgroundTint="@color/morado_1"
+        android:background="@color/rosado_1"
         android:text="@string/registrate"
-        android:textSize="18sp" />
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView7"
