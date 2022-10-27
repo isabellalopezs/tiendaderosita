@@ -11,7 +11,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4185956-8124-463f-bc65-1fdaf542b75b" name="Changes" comment="" />
+    <list default="true" id="e4185956-8124-463f-bc65-1fdaf542b75b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBinderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBinderMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBindingComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBindingComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/tienda_de_rosita/BR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/tienda_de_rosita/BR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/tienda_de_rosita/DataBinderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/tienda_de_rosita/DataBinderMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/tienda_de_rosita/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/tienda_de_rosita/BuildConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
