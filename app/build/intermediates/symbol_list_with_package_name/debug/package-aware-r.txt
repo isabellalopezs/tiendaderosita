@@ -2839,8 +2839,14 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextPhone
+id editTextTextEmailAddress
+id editTextTextPassword
+id editTextTextPassword2
+id editTextTextPersonName
 id editTextTextPersonName2
 id editTextTextPersonName3
+id editTextTextPersonName4
 id edit_query
 id elastic
 id embed
@@ -2891,11 +2897,12 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate
 id info
-id ingresar
+id ingresar_log_bt
 id invisible
 id inward
 id italic
@@ -3016,7 +3023,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id registrate
+id registrate_log_bt
+id registrate_registro_bt
 id restart
 id reverse
 id reverseSawtooth
@@ -3286,6 +3294,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_registro
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

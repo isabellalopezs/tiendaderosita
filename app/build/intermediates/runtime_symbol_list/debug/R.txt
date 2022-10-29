@@ -2838,8 +2838,14 @@ int id easeIn 0x7f0a00a9
 int id easeInOut 0x7f0a00aa
 int id easeOut 0x7f0a00ab
 int id east 0x7f0a00ac
+int id editTextPhone 0x7f0a01f0
+int id editTextTextEmailAddress 0x7f0a01f1
+int id editTextTextPassword 0x7f0a01f2
+int id editTextTextPassword2 0x7f0a01f3
+int id editTextTextPersonName 0x7f0a01f4
 int id editTextTextPersonName2 0x7f0a00ad
 int id editTextTextPersonName3 0x7f0a00ae
+int id editTextTextPersonName4 0x7f0a01f5
 int id edit_query 0x7f0a00af
 int id elastic 0x7f0a00b0
 int id embed 0x7f0a00b1
@@ -2890,11 +2896,12 @@ int id ignore 0x7f0a00dd
 int id ignoreRequest 0x7f0a00de
 int id image 0x7f0a00df
 int id imageView 0x7f0a00e0
+int id imageView2 0x7f0a01f6
 int id immediateStop 0x7f0a00e1
 int id included 0x7f0a00e2
 int id indeterminate 0x7f0a00e3
 int id info 0x7f0a00e4
-int id ingresar 0x7f0a00e5
+int id ingresar_log_bt 0x7f0a01f7
 int id invisible 0x7f0a00e6
 int id inward 0x7f0a00e7
 int id italic 0x7f0a00e8
@@ -3015,7 +3022,8 @@ int id progress_horizontal 0x7f0a015a
 int id radio 0x7f0a015b
 int id ratio 0x7f0a015c
 int id rectangles 0x7f0a015d
-int id registrate 0x7f0a015e
+int id registrate_log_bt 0x7f0a01f8
+int id registrate_registro_bt 0x7f0a01f9
 int id restart 0x7f0a015f
 int id reverse 0x7f0a0160
 int id reverseSawtooth 0x7f0a0161
@@ -3285,6 +3293,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_login 0x7f0d001c
 int layout activity_main 0x7f0d001d
+int layout activity_registro 0x7f0d0068
 int layout custom_dialog 0x7f0d001e
 int layout design_bottom_navigation_item 0x7f0d001f
 int layout design_bottom_sheet_dialog 0x7f0d0020
