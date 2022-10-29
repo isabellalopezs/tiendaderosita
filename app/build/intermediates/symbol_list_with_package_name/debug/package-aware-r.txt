@@ -2575,6 +2575,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable carritocompra
 drawable cheque
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2610,6 +2611,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menuicono
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -2661,6 +2663,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable postrecuatro
+drawable postredos
+drawable postretres
+drawable postreuno
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2766,6 +2772,11 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnmenu
+id btnpostrecuatro
+id btnpostredos
+id btnpostretres
+id btnpostreuno
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2841,10 +2852,8 @@ id easeOut
 id east
 id editTextPhone
 id editTextTextEmailAddress
-id editTextTextPassword
 id editTextTextPassword2
 id editTextTextPersonName
-id editTextTextPersonName2
 id editTextTextPersonName3
 id editTextTextPersonName4
 id edit_query
@@ -2896,8 +2905,13 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton5
 id imageView
 id imageView2
+id imgpostrecuatro
+id imgpostredos
+id imgpostretres
+id imgpostreuno
 id immediateStop
 id included
 id indeterminate
@@ -3117,6 +3131,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView2
 id textView3
 id textView7
@@ -3147,6 +3162,16 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtpassword
+id txtpostrecuatro
+id txtpostredos
+id txtpostretres2
+id txtpostreuno
+id txtpreciocuatro
+id txtpreciodos
+id txtpreciotres
+id txtpreciouno
+id txtusuario
 id unchecked
 id uniform
 id unlabeled
@@ -3292,6 +3317,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home
 layout activity_login
 layout activity_main
 layout activity_registro

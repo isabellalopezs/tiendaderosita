@@ -1,0 +1,501 @@
+Index: app/src/main/res/layout/activity_login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#F2A2C0\"\r\n    tools:context=\".view.ui.activities.LoginActivity\">\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView\"\r\n        android:layout_width=\"413dp\"\r\n        android:layout_height=\"153dp\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_alignParentEnd=\"true\"\r\n        android:layout_alignParentBottom=\"true\"\r\n        android:layout_marginStart=\"-2dp\"\r\n        android:layout_marginTop=\"94dp\"\r\n        android:layout_marginEnd=\"0dp\"\r\n        android:layout_marginBottom=\"356dp\"\r\n        android:contentDescription=\"@string/todo\"\r\n        app:srcCompat=\"@drawable/muff\"\r\n        tools:ignore=\"ImageContrastCheck\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/editTextTextPersonName2\"\r\n        android:layout_width=\"295dp\"\r\n        android:layout_height=\"43dp\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentEnd=\"true\"\r\n        android:layout_alignParentBottom=\"true\"\r\n        android:layout_marginStart=\"54dp\"\r\n        android:layout_marginEnd=\"63dp\"\r\n        android:layout_marginBottom=\"303dp\"\r\n        android:autofillHints=\"\"\r\n        android:background=\"@color/white\"\r\n        android:backgroundTint=\"@color/white\"\r\n        android:ems=\"10\"\r\n        android:inputType=\"textPersonName\"\r\n        android:selectAllOnFocus=\"false\"\r\n        android:singleLine=\"false\"\r\n        android:text=\"@string/ingrese_usuario\"\r\n        android:textColor=\"#7A7877\"\r\n        tools:ignore=\"SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/editTextTextPersonName3\"\r\n        android:layout_width=\"279dp\"\r\n        android:layout_height=\"45dp\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentEnd=\"true\"\r\n        android:layout_alignParentBottom=\"true\"\r\n        android:layout_marginStart=\"53dp\"\r\n        android:layout_marginEnd=\"61dp\"\r\n        android:layout_marginBottom=\"231dp\"\r\n        android:autofillHints=\"\"\r\n        android:background=\"@color/white\"\r\n        android:backgroundTint=\"@color/white\"\r\n        android:ems=\"10\"\r\n        android:inputType=\"textPersonName\"\r\n        android:selectAllOnFocus=\"false\"\r\n        android:singleLine=\"false\"\r\n        android:text=\"@string/ingrese_contrase_a\"\r\n        android:textColor=\"#A1887F\"\r\n        tools:ignore=\"SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/ingresar\"\r\n        android:layout_width=\"112dp\"\r\n        android:layout_height=\"58dp\"\r\n        android:layout_alignParentEnd=\"true\"\r\n        android:layout_alignParentBottom=\"true\"\r\n        android:layout_marginEnd=\"145dp\"\r\n        android:layout_marginBottom=\"151dp\"\r\n        android:background=\"@color/rosado_1\"\r\n        android:text=\"@string/ingresar\"\r\n        android:textColor=\"@color/white\"\r\n        android:textSize=\"20sp\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/registrate\"\r\n        android:layout_width=\"163dp\"\r\n        android:layout_height=\"58dp\"\r\n        android:layout_alignParentEnd=\"true\"\r\n        android:layout_alignParentBottom=\"true\"\r\n        android:layout_marginEnd=\"117dp\"\r\n        android:layout_marginBottom=\"52dp\"\r\n        android:background=\"@color/rosado_1\"\r\n        android:text=\"@string/registrate\"\r\n        android:textColor=\"@color/white\"\r\n        android:textSize=\"18sp\"\r\n        tools:ignore=\"TextContrastCheck\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView7\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"49dp\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:background=\"@color/rosado_1\"\r\n        android:fontFamily=\"@font/source_sans_pro_light\"\r\n        android:text=\"@string/tienda_de_rosita\"\r\n        android:textAlignment=\"center\"\r\n        android:textColor=\"#FDFDFD\"\r\n        android:textSize=\"47sp\"\r\n        android:textStyle=\"bold\"\r\n        tools:ignore=\"TextContrastCheck\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView8\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginTop=\"48dp\"\r\n        android:background=\"@color/rosado_1\"\r\n        android:fontFamily=\"@font/source_sans_pro_light\"\r\n        android:text=\"@string/saquese_la_espinita_del_antojo\"\r\n        android:textAlignment=\"center\"\r\n        android:textColor=\"@color/white\"\r\n        android:textSize=\"27sp\" />\r\n\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_login.xml b/app/src/main/res/layout/activity_login.xml
+--- a/app/src/main/res/layout/activity_login.xml	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
++++ b/app/src/main/res/layout/activity_login.xml	(date 1667060378343)
+@@ -24,7 +24,7 @@
+         tools:ignore="ImageContrastCheck" />
+ 
+     <EditText
+-        android:id="@+id/editTextTextPersonName2"
++        android:id="@+id/txtusuario"
+         android:layout_width="295dp"
+         android:layout_height="43dp"
+         android:layout_alignParentStart="true"
+@@ -45,7 +45,7 @@
+         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+ 
+     <EditText
+-        android:id="@+id/editTextTextPersonName3"
++        android:id="@+id/txtpassword"
+         android:layout_width="279dp"
+         android:layout_height="45dp"
+         android:layout_alignParentStart="true"
+@@ -66,7 +66,7 @@
+         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+ 
+     <Button
+-        android:id="@+id/ingresar"
++        android:id="@+id/ingresar_log_bt"
+         android:layout_width="112dp"
+         android:layout_height="58dp"
+         android:layout_alignParentEnd="true"
+Index: app/src/main/java/com/example/tienda_de_rosita/view/ui/activities/LoginActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.tienda_de_rosita.view.ui.activities\r\n\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport android.os.Bundle\r\nimport com.example.tienda_de_rosita.R\r\n\r\nclass LoginActivity : AppCompatActivity() {\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        setContentView(R.layout.activity_login)\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/tienda_de_rosita/view/ui/activities/LoginActivity.kt b/app/src/main/java/com/example/tienda_de_rosita/view/ui/activities/LoginActivity.kt
+--- a/app/src/main/java/com/example/tienda_de_rosita/view/ui/activities/LoginActivity.kt	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
++++ b/app/src/main/java/com/example/tienda_de_rosita/view/ui/activities/LoginActivity.kt	(date 1667060820454)
+@@ -1,12 +1,33 @@
+ package com.example.tienda_de_rosita.view.ui.activities
+ 
++import android.content.Intent
+ import androidx.appcompat.app.AppCompatActivity
+ import android.os.Bundle
++import android.widget.Button
++import android.widget.EditText
++import android.widget.Toast
+ import com.example.tienda_de_rosita.R
+ 
+ class LoginActivity : AppCompatActivity() {
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+         setContentView(R.layout.activity_login)
++        val txtusuario = findViewById<EditText>(R.id.txtusuario)
++        val txtpassword = findViewById<EditText>(R.id.txtpassword)
++        val ingresar_log_bt = findViewById<Button>(R.id.ingresar_log_bt)
++        ingresar_log_bt.setOnClickListener{
++            val usu: String = txtusuario.text.toString()
++            val clave: String = txtpassword.toString()
++            println(usu)
++            if (usu == "3116345115" && clave == "1234") {
++                startActivity(Intent(this, detalle::class.java))
++                else if (usu == "persona@gmail.com" && clave == "12345"){
++                    startActivity(Intent(this, detalle::class.java))
++                }
++            } else {
++                Toast.makeText(this, "Datos Incorrectos", Toast.LENGTH_SHORT).show()
++            }
++
++        }
+     }
+ }
+\ No newline at end of file
+Index: app/src/main/java/com/example/tienda_de_rosita/Home.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/tienda_de_rosita/Home.kt b/app/src/main/java/com/example/tienda_de_rosita/Home.kt
+deleted file mode 100644
+--- a/app/src/main/java/com/example/tienda_de_rosita/Home.kt	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
++++ /dev/null	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
+@@ -1,11 +0,0 @@
+-package com.example.tienda_de_rosita
+-
+-import androidx.appcompat.app.AppCompatActivity
+-import android.os.Bundle
+-
+-class Home : AppCompatActivity() {
+-    override fun onCreate(savedInstanceState: Bundle?) {
+-        super.onCreate(savedInstanceState)
+-        setContentView(R.layout.activity_home)
+-    }
+-}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_home.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_home.xml b/app/src/main/res/layout/activity_home.xml
+deleted file mode 100644
+--- a/app/src/main/res/layout/activity_home.xml	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
++++ /dev/null	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
+@@ -1,237 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:background="@color/rosado_2"
+-    tools:context=".Home">
+-
+-    <TextView
+-        android:id="@+id/textView"
+-        android:layout_width="404dp"
+-        android:layout_height="71dp"
+-        android:layout_marginTop="4dp"
+-        android:background="@color/morado_1"
+-        android:gravity="center"
+-        android:text="Bienvenido a la Tienda de Rosita"
+-        android:textSize="24sp"
+-        android:textStyle="bold"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.428"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <ImageView
+-        android:id="@+id/imgpostreuno"
+-        android:layout_width="162dp"
+-        android:layout_height="122dp"
+-        android:layout_marginTop="100dp"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.112"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:srcCompat="@drawable/postreuno" />
+-
+-    <ImageView
+-        android:id="@+id/imgpostrecuatro"
+-        android:layout_width="162dp"
+-        android:layout_height="122dp"
+-        android:layout_marginTop="384dp"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.875"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:srcCompat="@drawable/postrecuatro" />
+-
+-    <ImageView
+-        android:id="@+id/imgpostretres"
+-        android:layout_width="162dp"
+-        android:layout_height="122dp"
+-        android:layout_marginTop="100dp"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.875"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:srcCompat="@drawable/postredos" />
+-
+-    <ImageView
+-        android:id="@+id/imgpostredos"
+-        android:layout_width="162dp"
+-        android:layout_height="122dp"
+-        android:layout_marginTop="384dp"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.112"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:srcCompat="@drawable/postretres" />
+-
+-    <TextView
+-        android:id="@+id/txtpostreuno"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="236dp"
+-        android:text="Parfait de frutos rojos"
+-        android:textAlignment="center"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.145"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <TextView
+-        android:id="@+id/txtpreciouno"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="272dp"
+-        android:text="$10.000"
+-        android:textAlignment="center"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.217"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <TextView
+-        android:id="@+id/txtpostrecuatro"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="524dp"
+-        android:text="Torta fría de cereza"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.816"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <TextView
+-        android:id="@+id/txtpreciocuatro"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="556dp"
+-        android:text="$11.000"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.732"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <TextView
+-        android:id="@+id/txtpostretres2"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="236dp"
+-        android:text="Pie de limón"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.766"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <TextView
+-        android:id="@+id/txtpreciotres"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="272dp"
+-        android:text="$6.000"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.738"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <TextView
+-        android:id="@+id/txtpostredos"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="524dp"
+-        android:text="Volcán de cereza"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.18"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <TextView
+-        android:id="@+id/txtpreciodos"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="556dp"
+-        android:text="$13.000"
+-        android:textColor="@color/black"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.217"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <Button
+-        android:id="@+id/btnpostreuno"
+-        android:layout_width="94dp"
+-        android:layout_height="34dp"
+-        android:layout_marginTop="312dp"
+-        android:background="@color/rosado_1"
+-        android:gravity="center"
+-        android:text="Añadir"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.173"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <Button
+-        android:id="@+id/btnpostretres"
+-        android:layout_width="94dp"
+-        android:layout_height="34dp"
+-        android:layout_marginTop="596dp"
+-        android:background="@color/rosado_1"
+-        android:gravity="center"
+-        android:text="Añadir"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.173"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <Button
+-        android:id="@+id/btnpostrecuatro"
+-        android:layout_width="94dp"
+-        android:layout_height="34dp"
+-        android:layout_marginTop="600dp"
+-        android:background="@color/rosado_1"
+-        android:gravity="center"
+-        android:text="Añadir"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.782"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <Button
+-        android:id="@+id/btnpostredos"
+-        android:layout_width="94dp"
+-        android:layout_height="34dp"
+-        android:layout_marginTop="312dp"
+-        android:background="@color/rosado_1"
+-        android:gravity="center"
+-        android:text="Añadir"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.807"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <ImageButton
+-        android:id="@+id/btnmenu"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:backgroundTint="@color/morado_1"
+-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+-        tools:layout_editor_absoluteX="22dp"
+-        tools:layout_editor_absoluteY="664dp" />
+-
+-    <ImageButton
+-        android:id="@+id/imageButton5"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:backgroundTint="@color/morado_1"
+-        app:srcCompat="@android:drawable/ic_menu_revert"
+-        tools:layout_editor_absoluteX="190dp"
+-        tools:layout_editor_absoluteY="664dp" />
+-
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AndroidLayouts\">\r\n    <shared>\r\n      <config />\r\n    </shared>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9b1120c9-a15d-425a-89d7-0c58a102e888\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[]\" />\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"developer\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2GjOIqdndpJX8xom0FRNx6PpyW0\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.cidr.known.project.marker\" value=\"true\" />\r\n    <property name=\"cidr.known.project.marker\" value=\"true\" />\r\n    <property name=\"last_directory_selection\" value=\"$PROJECT_DIR$/app/src/main/res/drawable\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/app/src/main/res/drawable\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\PROGRAMACION\\ProgramacionMINTIC\\Ciclo4\\repositorioRosita\\app\\src\\main\\res\\drawable\" />\r\n    </key>\r\n    <key name=\"android.template.-4119064\">\r\n      <recent name=\"com.example.tienda_de_rosita\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\">\r\n      <module name=\"Tienda_de_Rosita.app.main\" />\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\r\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\r\n      <option name=\"ALL_USERS\" value=\"false\" />\r\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\r\n      <option name=\"CLEAR_APP_STORAGE\" value=\"false\" />\r\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\r\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Hybrid>\r\n      <Java />\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n        <option name=\"PROFILING_MODE\" value=\"NOT_SET\" />\r\n      </Profilers>\r\n      <option name=\"DEEP_LINK\" value=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\r\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9b1120c9-a15d-425a-89d7-0c58a102e888\" name=\"Changes\" comment=\"\" />\r\n      <created>1666898450097</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1666898450097</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
++++ b/.idea/workspace.xml	(date 1667060431991)
+@@ -9,17 +9,38 @@
+     <option name="autoReloadType" value="NONE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9b1120c9-a15d-425a-89d7-0c58a102e888" name="Changes" comment="" />
++    <list default="true" id="9b1120c9-a15d-425a-89d7-0c58a102e888" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2022_3_56_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2022_3_56_PM__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tienda_de_rosita/Home.kt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tienda_de_rosita/view/ui/activities/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tienda_de_rosita/view/ui/activities/LoginActivity.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
++  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ASUS\.android\avd\Pixel_4_XL_API_33.avd]" />
+   <component name="ExternalProjectsData">
+     <projectState path="$PROJECT_DIR$">
+       <ProjectState />
+     </projectState>
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Kotlin Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+@@ -31,6 +52,9 @@
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="ProjectErrors" />
+   </component>
+   <component name="ProjectId" id="2GjOIqdndpJX8xom0FRNx6PpyW0" />
+   <component name="ProjectViewState">
+@@ -47,14 +71,21 @@
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\ASUS\AndroidStudioProjects\tiendaderosita\app\src\main\res\drawable" />
+       <recent name="E:\PROGRAMACION\ProgramacionMINTIC\Ciclo4\repositorioRosita\app\src\main\res\drawable" />
+     </key>
+     <key name="android.template.-4119064">
++      <recent name="com.example.tienda_de_rosita" />
++    </key>
++    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
++      <recent name="com.example.tienda_de_rosita.view.ui.activities" />
++    </key>
++    <key name="android.template.-763759715">
+       <recent name="com.example.tienda_de_rosita" />
+     </key>
+   </component>
+   <component name="RunManager">
+-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
++    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+       <module name="Tienda_de_Rosita.app.main" />
+       <option name="DEPLOY" value="true" />
+       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+@@ -111,6 +142,19 @@
+       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+       <method v="2">
+         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="JetRunConfigurationType">
++      <module name="Tienda_de_Rosita" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <module name="Tienda_de_Rosita" />
++      <option name="filePath" />
++      <method v="2">
++        <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+   </component>
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\">\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:dataExtractionRules=\"@xml/data_extraction_rules\"\r\n        android:fullBackupContent=\"@xml/backup_rules\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/Theme.AppCompat.NoActionBar\"\r\n        tools:targetApi=\"31\">\r\n        <activity\r\n            android:name=\".view.ui.activities.LoginActivity\"\r\n            android:exported=\"false\">\r\n            <meta-data\r\n                android:name=\"android.app.lib_name\"\r\n                android:value=\"\" />\r\n        </activity>\r\n        <activity\r\n            android:name=\".view.ui.activities.MainActivity\"\r\n            android:exported=\"true\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n\r\n            <meta-data\r\n                android:name=\"android.app.lib_name\"\r\n                android:value=\"\" />\r\n        </activity>\r\n\r\n        <meta-data\r\n            android:name=\"preloaded_fonts\"\r\n            android:resource=\"@array/preloaded_fonts\" />\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	(revision a7662b786e5acb2a42037f6415bfb04ebaa7a418)
++++ b/app/src/main/AndroidManifest.xml	(date 1667055487397)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools">
++    xmlns:tools="http://schemas.android.com/tools" >
+ 
+     <application
+         android:allowBackup="true"
+@@ -11,17 +11,26 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/Theme.AppCompat.NoActionBar"
+-        tools:targetApi="31">
++        tools:targetApi="31" >
+         <activity
++            android:name=".view.ui.activities.Home"
++            android:exported="true" >
++
++            <meta-data
++                android:name="android.app.lib_name"
++                android:value="" />
++        </activity>
++        <activity
+             android:name=".view.ui.activities.LoginActivity"
+-            android:exported="false">
++            android:exported="true" >
+             <meta-data
+                 android:name="android.app.lib_name"
+                 android:value="" />
+         </activity>
++
+         <activity
+             android:name=".view.ui.activities.MainActivity"
+-            android:exported="true">
++            android:exported="true" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+ 
