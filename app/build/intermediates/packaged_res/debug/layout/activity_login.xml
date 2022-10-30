@@ -37,6 +37,7 @@
         android:autofillHints=""
         android:background="@color/white"
         android:ems="10"
+        android:fontFamily="@font/sourcesanstreslight"
         android:hint="  Ingrese correo/telefono."
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
@@ -44,7 +45,9 @@
         android:textAlignment="viewStart"
         android:textColor="@color/black"
         android:textColorHint="@color/gris"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck"
+        />
 
     <Button
         android:id="@+id/ingresar_log_bt"
@@ -57,9 +60,11 @@
         android:layout_marginEnd="125dp"
         android:layout_marginBottom="135dp"
         android:background="@color/rosado_1"
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/ingresar"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/registrate_log_bt"
@@ -73,9 +78,11 @@
         android:layout_marginEnd="146dp"
         android:layout_marginBottom="65dp"
         android:background="@color/rosado_1"
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/registrate"
         android:textColor="@color/white"
         android:textSize="16sp"
+        android:textStyle="bold"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -85,7 +92,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="@color/rosado_1"
-        android:fontFamily="@font/source_sans_pro_light"
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/tienda_de_rosita"
         android:textAlignment="center"
         android:textColor="#FDFDFD"
@@ -101,7 +108,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="48dp"
         android:background="@color/rosado_1"
-        android:fontFamily="@font/source_sans_pro_light"
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/saquese_la_espinita_del_antojo"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -120,11 +127,13 @@
         android:layout_marginBottom="234dp"
         android:background="@color/white"
         android:ems="10"
+        android:fontFamily="@font/sourcesanstreslight"
         android:hint="  Ingrese contraseña."
         android:inputType="textPassword"
         android:textAlignment="viewStart"
         android:textColor="@color/black"
         android:textColorHint="@color/gris"
+        android:textStyle="bold"
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
 </RelativeLayout>
