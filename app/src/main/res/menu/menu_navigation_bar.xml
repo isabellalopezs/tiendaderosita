@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/configiracion"
+        android:checkable="false"
+        android:icon="@drawable/lineas"
+        android:title=""
+        >
+
+    </item>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/casaaaa"
+        android:title="">
+    </item>
+    <item
+        android:id="@+id/carrito"
+        android:icon="@drawable/carrito"
+        android:title="">
+
+
+    </item>
+</menu>
