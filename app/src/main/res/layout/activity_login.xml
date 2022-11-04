@@ -9,12 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-
-
-
         android:layout_width="wrap_content"
         android:layout_height="307dp"
-
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -28,13 +24,9 @@
         tools:ignore="ImageContrastCheck" />
 
     <EditText
-
-
-
         android:id="@+id/txtusuario"
         android:layout_width="wrap_content"
         android:layout_height="36dp"
-
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -45,7 +37,8 @@
         android:autofillHints=""
         android:background="@color/white"
         android:ems="10"
-
+        android:fontFamily="@font/sourcesanstreslight"
+        android:hint="  Ingrese correo/telefono."
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:singleLine="false"
@@ -63,15 +56,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-
-
-
         android:layout_marginStart="123dp"
         android:layout_marginEnd="125dp"
         android:layout_marginBottom="135dp"
-
         android:background="@color/rosado_1"
-
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/ingresar"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -89,7 +78,7 @@
         android:layout_marginEnd="146dp"
         android:layout_marginBottom="65dp"
         android:background="@color/rosado_1"
-
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/registrate"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -103,7 +92,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="@color/rosado_1"
-
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/tienda_de_rosita"
         android:textAlignment="center"
         android:textColor="#FDFDFD"
@@ -119,7 +108,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="48dp"
         android:background="@color/rosado_1"
-
+        android:fontFamily="@font/sourcesanstreslight"
         android:text="@string/saquese_la_espinita_del_antojo"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -138,7 +127,7 @@
         android:layout_marginBottom="234dp"
         android:background="@color/white"
         android:ems="10"
-
+        android:fontFamily="@font/sourcesanstreslight"
         android:hint="  Ingrese contraseña."
         android:inputType="textPassword"
         android:textAlignment="viewStart"
