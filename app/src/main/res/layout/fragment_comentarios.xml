@@ -115,6 +115,7 @@
         android:background="@drawable/stylo_borde"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

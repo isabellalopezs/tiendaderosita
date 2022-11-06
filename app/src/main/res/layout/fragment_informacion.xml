@@ -41,6 +41,7 @@
         android:paddingEnd="5dp"
         android:paddingRight="10dp"
         android:text="Tienda Rosita SAS es una mediana empresa ubicada en Roldanillo, valle que busca deleitar a sus clientes con postres de la más alta calidad invitándolos a sacar la espinita del antojo.   Para mayor información nuestra línea de atención personalizada es   WhatsApp: +57 311 620 45 32   o Visítanos en nuestra tienda física"
+        android:textAlignment="viewStart"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />

@@ -33,7 +33,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="624dp">
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -72,7 +72,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="@font/sourcesanstreslight"
-                            android:text="Parfait de frutos rojos $10.000"
+                            android:text="Pudin $3.000"
                             android:textAlignment="center"
                             android:textSize="18dp"
                             android:textStyle="bold">
@@ -111,7 +111,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="@font/sourcesanstreslight"
-                            android:text="Volcan de cereza $13.000"
+                            android:text="Gelatina $5.000"
                             android:textAlignment="center"
                             android:textSize="18dp"
                             android:textStyle="bold">
@@ -150,7 +150,85 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="@font/sourcesanstreslight"
-                            android:text="Torta fria de cereza $11.000"
+                            android:text="Parfait $10.000"
+                            android:textAlignment="center"
+                            android:textSize="18dp"
+                            android:textStyle="bold">
+
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:backgroundTint="@color/morado_1"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="109dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/batido">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:fontFamily="@font/sourcesanstreslight"
+                            android:text="Batido $5.600"
+                            android:textAlignment="center"
+                            android:textSize="18dp"
+                            android:textStyle="bold">
+
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:backgroundTint="@color/morado_1"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/galletas">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:fontFamily="@font/sourcesanstreslight"
+                            android:text="Galletas $2.500"
                             android:textAlignment="center"
                             android:textSize="18dp"
                             android:textStyle="bold">
@@ -186,7 +264,9 @@
                             android:background="@drawable/stylo_borde"
                             android:backgroundTint="#8C2E62"
                             android:fontFamily="@font/sourcesanstreslight"
-                            android:text="Comprar" />
+                            android:text="Comprar"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -195,7 +275,7 @@
                             android:layout_marginTop="-40dp"
                             android:layout_marginRight="100dp"
                             android:fontFamily="@font/sourcesanstreslight"
-                            android:text="Total $34.000"
+                            android:text="Total: $26.100"
                             android:textAlignment="center"
                             android:textSize="20dp"
                             android:textStyle="bold">
@@ -206,9 +286,11 @@
 
                 </androidx.cardview.widget.CardView>
 
+
             </GridLayout>
 
         </ScrollView>
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/buttonNavigationMenu"
             android:layout_width="wrap_content"

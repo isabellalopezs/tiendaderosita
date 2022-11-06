@@ -35,6 +35,7 @@
         android:paddingEnd="15dp"
         android:paddingRight="10dp"
         android:text="La aplicación funcionará como un nuevo canal para la realización de ciertas actividades descritas más adelante con el objeto de facilitar el acceso a los clientes de las compañías de Tienda Rosita SAS.  El usuario se compromete a leer los términos y condiciones aquí establecidas, previamente a la descarga de la aplicación, por tanto, en caso de realizar la instalación se entiende que cuenta con el conocimiento integral de este documento y la consecuente aceptación de la totalidad de sus estipulaciones."
+        android:textAlignment="viewStart"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
