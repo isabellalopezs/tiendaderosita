@@ -644,7 +644,7 @@
             android:id="@+id/buttonNavigationMenu"
             android:layout_width="wrap_content"
             android:layout_height="56dp"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="20dp"
             android:background="@color/morado_1"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F2A2C0"
     android:textAlignment="gravity"
-    tools:context=".view.ui.fragments.ComentariosFragment">
+    tools:context=".view.ui.fragments.InformacionFragment">
 
     <TextView
         android:id="@+id/txtinformacion"
@@ -45,6 +45,7 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
+
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="360dp"
@@ -54,9 +55,8 @@
         android:addStatesFromChildren="false"
         android:contentDescription="mapa" />
 
-
     <Button
-        android:id="@+id/btnatras"
+        android:id="@+id/atrasi"
         android:layout_width="122dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="135dp"

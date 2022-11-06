@@ -23,12 +23,12 @@
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSelectHandle="7dp"
         android:textSize="32sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonsalirc"
         android:layout_width="124dp"
         android:layout_height="38dp"
         android:layout_marginLeft="250dp"
@@ -43,7 +43,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/texp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
@@ -56,7 +56,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/texc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
@@ -68,7 +68,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/texi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
@@ -80,7 +80,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/textt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
@@ -130,15 +130,14 @@
         android:layout_marginLeft="12dp"
         android:layout_marginTop="443dp"
         android:src="@drawable/manoos" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/buttonNavigationMenu"
         android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginTop="729dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="709dp"
         android:background="@color/morado_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:backgroundTint="@color/white"
         app:menu="@menu/menu_navigation_bar"
         tools:ignore="MissingConstraints">
 

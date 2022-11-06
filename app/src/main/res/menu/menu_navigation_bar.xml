@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/configiracion"
-        android:checkable="false"
-        android:icon="@drawable/lineas"
+        android:id="@+id/configuracionm"
+        android:icon="@drawable/icoconfug"
         android:title=""
         >
 
     </item>
     <item
-        android:id="@+id/home"
-        android:icon="@drawable/casaaaa"
+        android:id="@+id/homem"
+        android:icon="@drawable/homeico"
         android:title="">
     </item>
     <item
-        android:id="@+id/carrito"
-        android:icon="@drawable/carrito"
+        android:id="@+id/carritom"
+        android:icon="@drawable/icocarrito"
         android:title="">
-
-
     </item>
 </menu>
