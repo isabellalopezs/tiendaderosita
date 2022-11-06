@@ -29,101 +29,100 @@
 19-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.AppCompat.NoActionBar" >
-22-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:13:9-59
-23        <activity
-23-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:15:9-21:20
-24            android:name="com.example.tienda_de_rosita.view.ui.activities.home"
-24-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:16:13-52
-25            android:exported="false" >
-25-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:22:9-28:20
-31            android:name="com.example.tienda_de_rosita.view.ui.activities.Registro"
-31-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:23:13-56
-32            android:exported="false" >
-32-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:24:13-37
-33            <meta-data
-33-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
-34                android:name="android.app.lib_name"
-34-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
-35                android:value="" />
-35-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
-36        </activity>
-37        <activity
-37-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:29:9-35:20
-38            android:name="com.example.tienda_de_rosita.view.ui.activities.LoginActivity"
-38-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:30:13-61
-39            android:exported="true" >
-39-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:31:13-36
-40            <meta-data
-40-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
-41                android:name="android.app.lib_name"
-41-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
-42                android:value="" />
-42-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
-43        </activity>
-44        <activity
-44-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:36:9-48:20
-45            android:name="com.example.tienda_de_rosita.view.ui.activities.MainActivity"
-45-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:37:13-60
-46            android:exported="true" >
-46-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:38:13-36
-47            <intent-filter>
-47-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:39:13-43:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:40:17-69
-48-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:40:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:42:17-77
-50-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:42:27-74
-51            </intent-filter>
-52
-53            <meta-data
-53-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
-54                android:name="android.app.lib_name"
-54-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
-55                android:value="" />
-55-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
-56        </activity>
-57
-58        <meta-data
-58-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:50:9-52:57
-59            android:name="preloaded_fonts"
-59-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:51:13-43
-60            android:resource="@array/preloaded_fonts" />
-60-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:52:13-54
-61
-62        <provider
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-64            android:authorities="com.example.tienda_de_rosita.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-66            <meta-data
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jax\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jax\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jax\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-72        </provider>
-73    </application>
-74
-75</manifest>
+21        android:theme="@style/Theme.AppCompat.NoActionBar" >
+21-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:13:9-59
+22        <activity
+22-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:15:9-21:20
+23            android:name="com.example.tienda_de_rosita.view.ui.activities.home"
+23-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:16:13-52
+24            android:exported="false" >
+24-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:17:13-37
+25            <meta-data
+25-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
+26                android:name="android.app.lib_name"
+26-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
+27                android:value="" />
+27-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
+28        </activity>
+29        <activity
+29-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:22:9-28:20
+30            android:name="com.example.tienda_de_rosita.view.ui.activities.Registro"
+30-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:23:13-56
+31            android:exported="false" >
+31-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:24:13-37
+32            <meta-data
+32-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
+33                android:name="android.app.lib_name"
+33-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
+34                android:value="" />
+34-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
+35        </activity>
+36        <activity
+36-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:29:9-35:20
+37            android:name="com.example.tienda_de_rosita.view.ui.activities.LoginActivity"
+37-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:30:13-61
+38            android:exported="true" >
+38-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:31:13-36
+39            <meta-data
+39-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
+40                android:name="android.app.lib_name"
+40-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
+41                android:value="" />
+41-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
+42        </activity>
+43        <activity
+43-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:36:9-48:20
+44            android:name="com.example.tienda_de_rosita.view.ui.activities.MainActivity"
+44-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:37:13-60
+45            android:exported="true" >
+45-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:38:13-36
+46            <intent-filter>
+46-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:39:13-43:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:40:17-69
+47-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:40:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:42:17-77
+49-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:42:27-74
+50            </intent-filter>
+51
+52            <meta-data
+52-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:18:13-20:36
+53                android:name="android.app.lib_name"
+53-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:19:17-52
+54                android:value="" />
+54-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:20:17-33
+55        </activity>
+56
+57        <meta-data
+57-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:50:9-52:57
+58            android:name="preloaded_fonts"
+58-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:51:13-43
+59            android:resource="@array/preloaded_fonts" />
+59-->C:\Users\Jax\OneDrive\Escritorio\ciclo 4b\app\src\main\AndroidManifest.xml:52:13-54
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.example.tienda_de_rosita.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jax\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jax\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jax\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jax\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>
