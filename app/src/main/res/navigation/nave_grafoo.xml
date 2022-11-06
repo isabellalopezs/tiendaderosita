@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nave_grafoo"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.menuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_menuFragment_self"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configuracionFragment"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.ConfiguracionFragment"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" >
+        <action
+            android:id="@+id/action_configuracionFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_terminosFragment"
+            app:destination="@id/terminosFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_comentariosFragment2"
+            app:destination="@id/comentariosFragment2" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_informacionFragment"
+            app:destination="@id/informacionFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_self"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/terminosFragment"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.TerminosFragment"
+        android:label="fragment_terminos"
+        tools:layout="@layout/fragment_terminos" >
+        <action
+            android:id="@+id/action_terminosFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_terminosFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_terminosFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comentariosFragment2"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.ComentariosFragment"
+        android:label="fragment_comentarios"
+        tools:layout="@layout/fragment_comentarios" >
+        <action
+            android:id="@+id/action_comentariosFragment2_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_comentariosFragment2_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_comentariosFragment2_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/informacionFragment"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.InformacionFragment"
+        android:label="fragment_informacion"
+        tools:layout="@layout/fragment_informacion" >
+        <action
+            android:id="@+id/action_informacionFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_informacionFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_informacionFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.CarritoFragment"
+        android:label="fragment_carrito"
+        tools:layout="@layout/fragment_carrito" >
+        <action
+            android:id="@+id/action_carritoFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_carritoFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_carritoFragment_self"
+            app:destination="@id/carritoFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.tienda_de_rosita.view.ui.activities.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+</navigation>
