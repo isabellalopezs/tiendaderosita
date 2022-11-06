@@ -81,12 +81,10 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/buttonNavigationMenu"
         android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginTop="729dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="709dp"
         android:background="@color/morado_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:backgroundTint="@color/white"
         app:menu="@menu/menu_navigation_bar"
         tools:ignore="MissingConstraints">
 

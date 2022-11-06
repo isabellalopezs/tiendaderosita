@@ -91,6 +91,8 @@ id buttonPieDeLimon
 id buttonPudin
 id buttonTortaFria
 id buttonVolcan
+id buttoncamara
+id buttongaleria
 id buttonsalirc
 id carritoFragment
 id carritom
@@ -112,7 +114,6 @@ id imageView
 id imageView10
 id imageView11
 id imageView2
-id imageView3
 id imageView6
 id imageView7
 id imageView8
@@ -126,6 +127,7 @@ id menuFragment
 id nav_host_fragment
 id nave_grafoo
 id perfilFragment
+id perfilfotoo
 id precioBatido
 id precioFresas
 id precioGalletas

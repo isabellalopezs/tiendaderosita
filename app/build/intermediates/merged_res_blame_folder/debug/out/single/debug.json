@@ -120,10 +120,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-55:\\drawable\\postretres.png"
     },
     {
-        "merged": "com.example.tienda_de_rosita.app-merged_res-53:/layout_fragment_terminos.xml.flat",
-        "source": "com.example.tienda_de_rosita.app-main-55:/layout/fragment_terminos.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-debug-54:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -214,6 +210,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-53:\\navigation_nave_grafoo.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-55:\\navigation\\nave_grafoo.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-53:/layout_fragment_perfil.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-55:/layout/fragment_perfil.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-53:\\font_sourcesanstreslight.ttf.flat",

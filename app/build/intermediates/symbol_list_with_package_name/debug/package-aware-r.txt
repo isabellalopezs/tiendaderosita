@@ -2950,6 +2950,8 @@ id buttonPieDeLimon
 id buttonPudin
 id buttonTortaFria
 id buttonVolcan
+id buttoncamara
+id buttongaleria
 id buttonsalirc
 id cache_measures
 id callMeasure
@@ -3095,7 +3097,6 @@ id imageView
 id imageView10
 id imageView11
 id imageView2
-id imageView3
 id imageView6
 id imageView7
 id imageView8
@@ -3229,6 +3230,7 @@ id pathRelative
 id peekHeight
 id percent
 id perfilFragment
+id perfilfotoo
 id pin
 id position
 id postLayout
