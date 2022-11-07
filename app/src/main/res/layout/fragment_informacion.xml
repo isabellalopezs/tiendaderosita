@@ -41,6 +41,7 @@
         android:paddingEnd="5dp"
         android:paddingRight="10dp"
         android:text="Tienda Rosita SAS es una mediana empresa ubicada en Roldanillo, valle que busca deleitar a sus clientes con postres de la más alta calidad invitándolos a sacar la espinita del antojo.   Para mayor información nuestra línea de atención personalizada es   WhatsApp: +57 311 620 45 32   o Visítanos en nuestra tienda física"
+        android:textAlignment="viewStart"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -48,9 +49,9 @@
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
-        android:layout_width="360dp"
-        android:layout_height="210dp"
-        android:layout_marginLeft="17dp"
+        android:layout_width="273dp"
+        android:layout_height="158dp"
+        android:layout_marginLeft="87dp"
         android:layout_marginTop="330dp"
         android:addStatesFromChildren="false"
         android:contentDescription="mapa" />
@@ -69,9 +70,10 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/buttonNavigationMenu"
         android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginTop="729dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="709dp"
         android:background="@color/morado_1"
+        android:backgroundTint="@color/white"
         app:menu="@menu/menu_navigation_bar"
         tools:ignore="MissingConstraints">
 

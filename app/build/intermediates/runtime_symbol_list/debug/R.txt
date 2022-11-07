@@ -3523,6 +3523,8 @@ int id buttonPieDeLimon 0x7f0a008e
 int id buttonPudin 0x7f0a008f
 int id buttonTortaFria 0x7f0a0090
 int id buttonVolcan 0x7f0a0091
+int id buttoncamara 0x7f0a027b
+int id buttongaleria 0x7f0a027c
 int id buttonsalirc 0x7f0a0271
 int id cache_measures 0x7f0a0092
 int id callMeasure 0x7f0a0093
@@ -3668,7 +3670,6 @@ int id imageView 0x7f0a011d
 int id imageView10 0x7f0a011e
 int id imageView11 0x7f0a011f
 int id imageView2 0x7f0a0120
-int id imageView3 0x7f0a0121
 int id imageView6 0x7f0a0122
 int id imageView7 0x7f0a0123
 int id imageView8 0x7f0a0124
@@ -3802,6 +3803,7 @@ int id pathRelative 0x7f0a01a2
 int id peekHeight 0x7f0a01a3
 int id percent 0x7f0a01a4
 int id perfilFragment 0x7f0a01a5
+int id perfilfotoo 0x7f0a027d
 int id pin 0x7f0a01a6
 int id position 0x7f0a01a7
 int id postLayout 0x7f0a01a8

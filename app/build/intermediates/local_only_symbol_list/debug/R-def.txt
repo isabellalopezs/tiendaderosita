@@ -107,7 +107,12 @@ id buttonPudin
 id buttonTortaFria
 id buttonVolcan
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+id buttoncamara
+id buttongaleria
+>>>>>>> e7766379637bc7b79ce3ad1e75d8a92e7ab5fd96
 id buttonsalirc
 id carritoFragment
 id carritom
@@ -135,7 +140,6 @@ id imageView
 id imageView10
 id imageView11
 id imageView2
-id imageView3
 id imageView6
 id imageView7
 id imageView8
@@ -149,7 +153,11 @@ id menuFragment
 id nav_host_fragment
 id nave_grafoo
 id perfilFragment
+<<<<<<< HEAD
 >>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
+=======
+id perfilfotoo
+>>>>>>> e7766379637bc7b79ce3ad1e75d8a92e7ab5fd96
 id precioBatido
 id precioFresas
 id precioGalletas

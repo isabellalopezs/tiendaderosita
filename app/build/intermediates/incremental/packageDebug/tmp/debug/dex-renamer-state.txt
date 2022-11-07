@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Sat Nov 05 21:24:09 COT 2022
 =======
 #Sun Nov 06 00:00:44 COT 2022
 >>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
+=======
+#Sun Nov 06 17:42:59 COT 2022
+>>>>>>> e7766379637bc7b79ce3ad1e75d8a92e7ab5fd96
 path.4=6/classes.dex
 path.3=12/classes.dex
 path.2=11/classes.dex
