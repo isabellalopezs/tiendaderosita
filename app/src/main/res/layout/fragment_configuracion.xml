@@ -29,18 +29,19 @@
 
     <Button
         android:id="@+id/buttonsalirc"
-        android:layout_width="124dp"
+        android:layout_width="match_parent"
         android:layout_height="38dp"
-        android:layout_marginLeft="250dp"
+        android:layout_marginLeft="200dp"
         android:layout_marginTop="565dp"
         android:background="@color/rosado_1"
         android:fontFamily="@font/sourcesanstreslight"
-        android:text="Salir"
+        android:text="Cerrar sesion"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_marginRight="50dp"/>
 
     <TextView
         android:id="@+id/texp"

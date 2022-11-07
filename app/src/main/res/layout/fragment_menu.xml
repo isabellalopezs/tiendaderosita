@@ -9,6 +9,7 @@
     tools:context=".view.ui.fragments.menuFragment">
 
     <LinearLayout
+        android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -29,89 +30,17 @@
                 android:gravity="center"
                 android:text="BIENVENIDO A LA TIENDA DE ROSITA"
                 android:textSize="35dp"
-                android:textStyle="bold"></TextView>
-
-
-
-
+                android:textStyle="bold">
+            </TextView>
         </RelativeLayout>
 
-        <ScrollView
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
             android:layout_width="match_parent"
-            android:layout_height="575dp">
-
-            <GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:alignmentMode="alignMargins"
-                android:columnCount="2"
-                android:columnOrderPreserved="false"
-                android:rowCount="6">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/cardViewProductos"
-                    android:layout_margin="12dp"
-                    android:background="none"
-                    app:cardBackgroundColor="@color/rosado_1"
-                    app:contentPadding="4dp"
-                    app:cardCornerRadius="20dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="16dp">
-
-                        <ImageView
-                            android:id="@+id/image"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginEnd="16dp"
-                            android:layout_marginRight="16dp">
-                        </ImageView>
-
-                        <TextView
-                            android:id="@+id/titulo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Titulo producto"
-                            android:textColor="@color/white"
-                            android:textStyle="bold"
-                            android:fontFamily="@font/sourcesanstreslight"
-                            android:textAlignment="center"
-                            android:layout_toEndOf="@id/image"
-                            android:layout_toRightOf="@id/image"
-                            android:layout_alignParentTop="true"
-                            android:textSize="30dp"
-                            android:layout_marginLeft="20dp">
-                        </TextView>
-
-                        <TextView
-                            android:id="@+id/precio"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="precio"
-                            android:textColor="@color/white"
-                            android:textStyle="bold"
-                            android:fontFamily="@font/sourcesanstreslight"
-                            android:textAlignment="center"
-                            android:layout_toEndOf="@id/image"
-                            android:layout_toRightOf="@id/image"
-                            android:layout_below="@+id/titulo"
-                            android:textSize="30dp"
-                            android:layout_marginLeft="20dp">
-                        </TextView>
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
-            </GridLayout>
-        </ScrollView>
-
-
-
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
 
     </LinearLayout>
 
@@ -136,8 +65,4 @@
         </com.google.android.material.bottomnavigation.BottomNavigationView>
     </RelativeLayout>
 
-
-
-
 </LinearLayout>
-

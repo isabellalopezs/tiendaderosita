@@ -2698,12 +2698,9 @@ drawable design_snackbar_background
 drawable fresas
 drawable galletas
 drawable gelatina
-<<<<<<< HEAD
-=======
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable homeico
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2940,37 +2937,16 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-<<<<<<< HEAD
-=======
 id button3
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
-id buttonBatido
-id buttonFresas
-id buttonGalletas
-id buttonGelatina
-id buttonMuffin
-<<<<<<< HEAD
-=======
 id buttonNavigationMenu
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id buttonPanel
-id buttonParfait
-id buttonPieDeLimon
-id buttonPudin
-id buttonTortaFria
-id buttonVolcan
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 id buttoncamara
 id buttongaleria
->>>>>>> e7766379637bc7b79ce3ad1e75d8a92e7ab5fd96
 id buttonsalirc
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id cache_measures
 id callMeasure
 id cancel_button
+id cardViewProductos
 id carritoFragment
 id carritom
 id carryVelocity
@@ -3109,9 +3085,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-<<<<<<< HEAD
-id imageView2
-=======
 id imageView10
 id imageView11
 id imageView2
@@ -3120,7 +3093,6 @@ id imageView7
 id imageView8
 id imageView9
 id imginfo
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id immediateStop
 id included
 id indeterminate
@@ -3253,22 +3225,14 @@ id perfilfotoo
 id pin
 id position
 id postLayout
-id precioBatido
-id precioFresas
-id precioGalletas
-id precioGelatina
-id precioMuffin
-id precioParfait
-id precioPieDeLimon
-id precioPudin
-id precioTortaFria
-id precioVolcan
+id precio
 id pressed
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerview
 id registrate_log_bt
 id registrate_registro_bt
 id restart
@@ -3372,10 +3336,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-<<<<<<< HEAD
-=======
 id textView15
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id textView2
 id textView20
 id textView21
@@ -3388,14 +3349,11 @@ id textView27
 id textView28
 id textView29
 id textView3
-<<<<<<< HEAD
-=======
 id textView30
 id textView31
 id textView32
 id textView33
 id textView4
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id textView7
 id textView8
 id textWatcher
@@ -3413,6 +3371,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id titulo
 id toggle
 id top
 id topPanel
@@ -3584,6 +3543,7 @@ layout activity_home
 layout activity_login
 layout activity_main
 layout activity_registro
+layout card_view_productos
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3600,9 +3560,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-<<<<<<< HEAD
-layout fragment_menu
-=======
 layout fragment_carrito
 layout fragment_comentarios
 layout fragment_configuracion
@@ -3610,7 +3567,6 @@ layout fragment_informacion
 layout fragment_menu
 layout fragment_perfil
 layout fragment_terminos
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

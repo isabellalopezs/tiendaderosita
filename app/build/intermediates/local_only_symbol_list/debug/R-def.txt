@@ -18,11 +18,6 @@ drawable carrito
 drawable carritocompra
 drawable casaaaa
 drawable cheque
-<<<<<<< HEAD
-drawable fresas
-drawable galletas
-drawable gelatina
-=======
 drawable chopeer
 drawable comentai
 drawable confuguracion
@@ -30,7 +25,6 @@ drawable fresas
 drawable galletas
 drawable gelatina
 drawable homeico
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icocarrito
@@ -43,10 +37,7 @@ drawable manoos
 drawable menuicono
 drawable muff
 drawable muffin
-<<<<<<< HEAD
-=======
 drawable personaaa
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 drawable postrecuatro
 drawable postredos
 drawable postretres
@@ -84,42 +75,21 @@ id action_terminosFragment_to_carritoFragment
 id action_terminosFragment_to_configuracionFragment
 id action_terminosFragment_to_menuFragment
 id animation_view
-<<<<<<< HEAD
-=======
 id atrasc
 id atrasi
 id atrasp
 id atrast
 id button3
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
-id buttonBatido
-id buttonFresas
-id buttonGalletas
-id buttonGelatina
-id buttonMuffin
-<<<<<<< HEAD
-=======
 id buttonNavigationMenu
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
-id buttonParfait
-id buttonPieDeLimon
-id buttonPudin
-id buttonTortaFria
-id buttonVolcan
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 id buttoncamara
 id buttongaleria
->>>>>>> e7766379637bc7b79ce3ad1e75d8a92e7ab5fd96
 id buttonsalirc
+id cardViewProductos
 id carritoFragment
 id carritom
 id comentariosFragment2
 id configuracionFragment
 id configuracionm
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id editTextPhone
 id editTextTextEmailAddress
 id editTextTextEmailAddress2
@@ -127,15 +97,11 @@ id editTextTextPassword2
 id editTextTextPersonName
 id editTextTextPersonName3
 id editTextTextPersonName4
-<<<<<<< HEAD
-id imageView
-id imageView2
-id ingresar_log_bt
-=======
 id editTextTextPersonName5
 id editTextTextPersonName6
 id enviarc
 id homem
+id image
 id imageView
 id imageView10
 id imageView11
@@ -147,37 +113,23 @@ id imageView9
 id imginfo
 id informacionFragment
 id ingresar_log_bt
+id linear
 id loginActivity
 id mapView
 id menuFragment
 id nav_host_fragment
 id nave_grafoo
 id perfilFragment
-<<<<<<< HEAD
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
-=======
 id perfilfotoo
->>>>>>> e7766379637bc7b79ce3ad1e75d8a92e7ab5fd96
-id precioBatido
-id precioFresas
-id precioGalletas
-id precioGelatina
-id precioMuffin
-id precioParfait
-id precioPieDeLimon
-id precioPudin
-id precioTortaFria
-id precioVolcan
+id precio
+id recyclerview
 id registrate_log_bt
 id registrate_registro_bt
-<<<<<<< HEAD
-=======
 id terminosFragment
 id texc
 id texi
 id texp
 id textView15
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id textView2
 id textView20
 id textView21
@@ -190,10 +142,6 @@ id textView27
 id textView28
 id textView29
 id textView3
-<<<<<<< HEAD
-id textView7
-id textView8
-=======
 id textView30
 id textView31
 id textView32
@@ -202,10 +150,10 @@ id textView4
 id textView7
 id textView8
 id textt
+id titulo
 id txtcondiciones
 id txtcontenido
 id txtinformacion
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 id txtpassword
 id txtterminos
 id txttituloterminos
@@ -214,9 +162,7 @@ layout activity_home
 layout activity_login
 layout activity_main
 layout activity_registro
-<<<<<<< HEAD
-layout fragment_menu
-=======
+layout card_view_productos
 layout fragment_carrito
 layout fragment_comentarios
 layout fragment_configuracion
@@ -225,7 +171,6 @@ layout fragment_menu
 layout fragment_perfil
 layout fragment_terminos
 menu menu_navigation_bar
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

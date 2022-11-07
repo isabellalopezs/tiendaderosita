@@ -8,19 +8,27 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.tienda_de_rosita.R
+import com.example.tienda_de_rosita.view.adapter.ProductosAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class menuFragment : Fragment() {
 
+    lateinit var recyclerProduc: RecyclerView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_menu, container, false)
+        val view =inflater.inflate(R.layout.fragment_menu, container, false)
+        recyclerProduc= view.findViewById(R.id.recyclerview)
+        val adapter=ProductosAdapter()
+        recyclerProduc.layoutManager= LinearLayoutManager(context)
+        recyclerProduc.adapter=adapter
+        return view
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -33,10 +41,6 @@ class menuFragment : Fragment() {
                 R.id.carritom -> findNavController().navigate(R.id.action_menuFragment_to_carritoFragment)
             }
         }
-        val buttonParfait = view.findViewById<Button>(R.id.buttonParfait)
-        val nombreParfait = view.findViewById<TextView>(R.id.nombreParfait)
-        val precioParfait = view.findViewById<TextView>(R.id.precioParfait)
-        buttonParfait.setOnClickListener {  }
     }
 
 
