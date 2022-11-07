@@ -26,7 +26,7 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/sourcesanstreslight"
                 android:gravity="center"
-                android:text="Resumen de compra"
+                android:text="Resumen de compra."
                 android:textSize="30dp"
                 android:textStyle="bold" />
         </RelativeLayout>
