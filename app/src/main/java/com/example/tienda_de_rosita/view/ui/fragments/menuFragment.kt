@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import com.example.tienda_de_rosita.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -31,6 +33,12 @@ class menuFragment : Fragment() {
                 R.id.carritom -> findNavController().navigate(R.id.action_menuFragment_to_carritoFragment)
             }
         }
+        val buttonParfait = view.findViewById<Button>(R.id.buttonParfait)
+        val nombreParfait = view.findViewById<TextView>(R.id.nombreParfait)
+        val precioParfait = view.findViewById<TextView>(R.id.precioParfait)
+        buttonParfait.setOnClickListener {  }
     }
+
+
 
 }
