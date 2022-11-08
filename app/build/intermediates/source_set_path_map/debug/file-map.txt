@@ -46,11 +46,11 @@ com.example.tienda_de_rosita.app-lifecycle-viewmodel-2.5.1-44 C:\Users\User\.gra
 com.example.tienda_de_rosita.app-fragment-1.5.4-45 C:\Users\User\.gradle\caches\transforms-3\f4e8c752aa58e883914bac4502d8ce05\transformed\fragment-1.5.4\res
 com.example.tienda_de_rosita.app-navigation-fragment-ktx-2.5.3-46 C:\Users\User\.gradle\caches\transforms-3\f892d77d61bc7728ff9aa59943d891d4\transformed\navigation-fragment-ktx-2.5.3\res
 com.example.tienda_de_rosita.app-annotation-experimental-1.1.0-47 C:\Users\User\.gradle\caches\transforms-3\fb44608a9e1d20332c6690b5dda0b67e\transformed\annotation-experimental-1.1.0\res
-com.example.tienda_de_rosita.app-pngs-48 C:\Users\User\Desktop\TiendaR\app\build\generated\res\pngs\debug
-com.example.tienda_de_rosita.app-resValues-49 C:\Users\User\Desktop\TiendaR\app\build\generated\res\resValues\debug
-com.example.tienda_de_rosita.app-rs-50 C:\Users\User\Desktop\TiendaR\app\build\generated\res\rs\debug
-com.example.tienda_de_rosita.app-packageDebugResources-51 C:\Users\User\Desktop\TiendaR\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.tienda_de_rosita.app-packageDebugResources-52 C:\Users\User\Desktop\TiendaR\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.tienda_de_rosita.app-merged_res-53 C:\Users\User\Desktop\TiendaR\app\build\intermediates\merged_res\debug
-com.example.tienda_de_rosita.app-debug-54 C:\Users\User\Desktop\TiendaR\app\src\debug\res
-com.example.tienda_de_rosita.app-main-55 C:\Users\User\Desktop\TiendaR\app\src\main\res
+com.example.tienda_de_rosita.app-pngs-48 C:\Users\User\Desktop\Tienda rosita\app\build\generated\res\pngs\debug
+com.example.tienda_de_rosita.app-resValues-49 C:\Users\User\Desktop\Tienda rosita\app\build\generated\res\resValues\debug
+com.example.tienda_de_rosita.app-rs-50 C:\Users\User\Desktop\Tienda rosita\app\build\generated\res\rs\debug
+com.example.tienda_de_rosita.app-packageDebugResources-51 C:\Users\User\Desktop\Tienda rosita\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.tienda_de_rosita.app-packageDebugResources-52 C:\Users\User\Desktop\Tienda rosita\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.tienda_de_rosita.app-merged_res-53 C:\Users\User\Desktop\Tienda rosita\app\build\intermediates\merged_res\debug
+com.example.tienda_de_rosita.app-debug-54 C:\Users\User\Desktop\Tienda rosita\app\src\debug\res
+com.example.tienda_de_rosita.app-main-55 C:\Users\User\Desktop\Tienda rosita\app\src\main\res

@@ -21,22 +21,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values-night\\strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "103",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "798"
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "120,57",
+                        "endColumns": "89,61",
+                        "endOffsets": "205,114"
                     },
                     "to": {
-                        "startLines": "35",
-                        "startColumns": "4",
-                        "startOffsets": "3493",
-                        "endLines": "47",
-                        "endColumns": "12",
-                        "endOffsets": "4055"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,145",
+                        "endColumns": "89,61",
+                        "endOffsets": "140,202"
                     }
                 },
                 {
@@ -57,20 +55,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "120,57",
-                        "endColumns": "89,61",
-                        "endOffsets": "205,114"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "103",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "798"
                     },
                     "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,145",
-                        "endColumns": "89,61",
-                        "endOffsets": "140,202"
+                        "startLines": "35",
+                        "startColumns": "4",
+                        "startOffsets": "3493",
+                        "endLines": "47",
+                        "endColumns": "12",
+                        "endOffsets": "4055"
                     }
                 }
             ]

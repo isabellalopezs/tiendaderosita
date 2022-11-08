@@ -59,6 +59,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,9,5,6,2,3,4,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "277,363,189,233,57,101,145,320",
+                        "endColumns": "41,38,42,42,42,42,42,41",
+                        "endOffsets": "314,397,227,271,95,139,183,357"
+                    },
+                    "to": {
+                        "startLines": "638,702,854,855,876,877,878,889",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "35194,39766,50734,50777,52220,52263,52306,53052",
+                        "endColumns": "41,38,42,42,42,42,42,41",
+                        "endOffsets": "35231,39800,50772,50815,52258,52301,52344,53089"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\8fd69d7879fcc60c4adfacc4279ac29a\\transformed\\transition-1.4.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -262,24 +279,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,10,3,4,5,2,8,7,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "17,552,123,170,238,72,402,339,300",
-                        "endColumns": "53,69,45,66,60,49,89,61,37",
-                        "endOffsets": "66,617,164,232,294,117,487,396,333"
-                    },
-                    "to": {
-                        "startLines": "1740,1777,1780,1781,1782,1884,1885,1888,1889",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "110780,115411,115788,115834,115901,130516,130566,130780,130842",
-                        "endColumns": "53,69,45,66,60,49,89,61,37",
-                        "endOffsets": "110829,115476,115829,115896,115957,130561,130651,130837,130875"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\debug\\res\\values\\ic_launcher_background.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\debug\\res\\values\\ic_launcher_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -293,6 +293,25 @@
                         "startOffsets": "39940",
                         "endColumns": "56",
                         "endOffsets": "39992"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "227"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "19",
+                        "endColumns": "12",
+                        "endOffsets": "3834"
                     }
                 },
                 {
@@ -312,6 +331,25 @@
                         "endLines": "1553,1591,1629,10604,10608",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "99660,101628,103583,650958,651107"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "6061",
+                        "startColumns": "4",
+                        "startOffsets": "417209",
+                        "endLines": "6073",
+                        "endColumns": "12",
+                        "endOffsets": "417771"
                     }
                 },
                 {
@@ -349,25 +387,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "797"
-                    },
-                    "to": {
-                        "startLines": "6061",
-                        "startColumns": "4",
-                        "startOffsets": "417209",
-                        "endLines": "6073",
-                        "endColumns": "12",
-                        "endOffsets": "417771"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\ecb295b800ded09051f724a4ba193524\\transformed\\lifecycle-runtime-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -399,42 +418,6 @@
                         "startOffsets": "99567",
                         "endColumns": "40",
                         "endOffsets": "99603"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "57,263,1993",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "257,1987,3582"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,9,5,6,2,3,4,8",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "277,363,189,233,57,101,145,320",
-                        "endColumns": "41,38,42,42,42,42,42,41",
-                        "endOffsets": "314,397,227,271,95,139,183,357"
-                    },
-                    "to": {
-                        "startLines": "638,702,854,855,876,877,878,889",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "35194,39766,50734,50777,52220,52263,52306,53052",
-                        "endColumns": "41,38,42,42,42,42,42,41",
-                        "endOffsets": "35231,39800,50772,50815,52258,52301,52344,53089"
                     }
                 },
                 {
@@ -471,6 +454,23 @@
                         "endLines": "11060",
                         "endColumns": "20",
                         "endOffsets": "667271"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,10,3,4,5,2,8,7,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,552,123,170,238,72,402,339,300",
+                        "endColumns": "53,69,45,66,60,49,89,61,37",
+                        "endOffsets": "66,617,164,232,294,117,487,396,333"
+                    },
+                    "to": {
+                        "startLines": "1740,1777,1780,1781,1782,1884,1885,1888,1889",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "110780,115411,115788,115834,115901,130516,130566,130780,130842",
+                        "endColumns": "53,69,45,66,60,49,89,61,37",
+                        "endOffsets": "110829,115476,115829,115896,115957,130561,130651,130837,130875"
                     }
                 },
                 {
@@ -588,6 +588,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values\\font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,263,1993",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "257,1987,3582"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\c42afeef813224fa525258b37185833b\\transformed\\play-services-basement-18.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -602,25 +621,6 @@
                         "startOffsets": "104147,113490",
                         "endColumns": "67,166",
                         "endOffsets": "104210,113652"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\Desktop\\TiendaR\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "227"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "19",
-                        "endColumns": "12",
-                        "endOffsets": "3834"
                     }
                 }
             ]
