@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2A2C0"
+    android:textAlignment="gravity"
+    tools:context=".view.ui.fragments.InformacionFragment">
+
+    <TextView
+        android:id="@+id/txtinformacion"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@color/morado_1"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:gravity="center"
+        android:text="          Informacion de la tienda"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imginfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/infooo" />
+
+    <TextView
+        android:id="@+id/txtcontenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_vertical|start"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:paddingStart="5dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="10dp"
+        android:text="Tienda Rosita SAS es una mediana empresa ubicada en Roldanillo, valle que busca deleitar a sus clientes con postres de la más alta calidad invitándolos a sacar la espinita del antojo.   Para mayor información nuestra línea de atención personalizada es   WhatsApp: +57 311 620 45 32   o Visítanos en nuestra tienda física"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="273dp"
+        android:layout_height="158dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="330dp"
+        android:addStatesFromChildren="false"
+        android:contentDescription="mapa" />
+
+    <Button
+        android:id="@+id/atrasi"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/rosado_1"
+        android:text="Atrás"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttonNavigationMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_marginTop="709dp"
+        android:background="@color/morado_1"
+        android:backgroundTint="@color/white"
+        app:menu="@menu/menu_navigation_bar"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</FrameLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ui.fragments.ComentariosFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/morado_1"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:text="Tu opinion es muy importante para nosotros."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:text="Aqui puedes dejar tos comentarios"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/stylo_borde"
+        android:ems="10"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:hint="  Ingrese su Nombre."
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="333dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/stylo_borde"
+        android:ems="10"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:hint="  Ingrese su Email."
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:text="Comentarios, quejas o felicitaciones"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/enviarc"
+        android:layout_width="134dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/ic_launcher_background"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:text="Enviar"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/atrasc"
+        android:layout_width="134dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/rosado_1"
+        android:fontFamily="@font/sourcesanstreslight"
+        android:text="Atras"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="328dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/stylo_borde"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttonNavigationMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_marginTop="709dp"
+        android:background="@color/morado_1"
+        android:backgroundTint="@color/white"
+        app:menu="@menu/menu_navigation_bar"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</FrameLayout>

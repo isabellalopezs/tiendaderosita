@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tienda_de_rosita.app-mergeDebugResources-33:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.tienda_de_rosita.app-mergeDebugResources-51:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Proyecto\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values-night\\strings.xml",
                     "from": {
                         "startLines": "3,2",
                         "startColumns": "4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Proyecto\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda rosita\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

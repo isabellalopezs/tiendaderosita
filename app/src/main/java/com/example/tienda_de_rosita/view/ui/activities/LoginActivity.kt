@@ -29,10 +29,10 @@ class LoginActivity : AppCompatActivity() {
             val usu = txtusuario.text.toString()
             val clave = txtpassword.text.toString()
 
-            if (usu == "pepito@gmail.com" && clave == "12345"){
+            if (usu == "1" && clave == "1"){
                 startActivity(Intent(this, home::class.java))
             }
-            else if(usu== "3112342909" && clave == "12345"){
+            else if(usu== "1" && clave == "1"){
                 startActivity(Intent(this, home::class.java))
             }
             else{

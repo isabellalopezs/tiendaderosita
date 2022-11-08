@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tienda_de_rosita.app-mergeDebugResources-33:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.tienda_de_rosita.app-mergeDebugResources-51:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-en-rCA\\values-en-rCA.xml",
