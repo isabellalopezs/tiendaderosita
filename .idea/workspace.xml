@@ -15,21 +15,21 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
+
     <list default="true" id="4847bfe9-3d77-439a-ad5d-6b0b44c81bc9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
+    </list>
+
     <list default="true" id="82c151f2-f8d6-4c87-b8d0-9248c31991d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_carrito.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_carrito.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_comentarios.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_comentarios.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_informacion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_informacion.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_terminos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_terminos.xml" afterDir="false" />
-<<<<<<< HEAD
+
       <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_navigation_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_navigation_bar.xml" afterDir="false" />
->>>>>>> d5d0e64a8ce5dceeab47ccf05e1e11d18de869e9
-=======
->>>>>>> e7766379637bc7b79ce3ad1e75d8a92e7ab5fd96
+
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
