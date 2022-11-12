@@ -116,6 +116,7 @@ id action_volcanFragment_to_configuracionFragment
 id action_volcanFragment_to_menuFragment
 id ananirtorta
 id animation_view
+id apellidosregistro
 id atrasc
 id atrasi
 id atrasp
@@ -151,13 +152,9 @@ id carritom
 id comentariosFragment2
 id configuracionFragment
 id configuracionm
-id editTextPhone
-id editTextTextEmailAddress
+id contraseñaregistro
+id correoregistro
 id editTextTextEmailAddress2
-id editTextTextPassword2
-id editTextTextPersonName
-id editTextTextPersonName3
-id editTextTextPersonName4
 id editTextTextPersonName5
 id editTextTextPersonName6
 id enviarc
@@ -184,6 +181,7 @@ id menuFragment
 id muffinFragment
 id nav_host_fragment
 id nave_grafoo
+id nombresregistro
 id parfaitFragment
 id perfilFragment
 id perfilfotoo
@@ -202,6 +200,7 @@ id precioVolcan
 id pudinFragment
 id registrate_log_bt
 id registrate_registro_bt
+id telefonoregistro
 id terminosFragment
 id texc
 id texi
@@ -242,6 +241,7 @@ id txtpassword
 id txtterminos
 id txttituloterminos
 id txtusuario
+id usuarioregistro
 id volcanFragment
 id volverbatido
 id volverfresas
@@ -282,10 +282,17 @@ mipmap ic_launcher_round
 navigation nave_grafoo
 raw muf
 string app_name
+string default_web_client_id
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string ingresar
 string ingrese_contrase_a
 string ingrese_usuario
+string project_id
 string registrate
 string saquese_la_espinita_del_antojo
 string tienda_de_rosita

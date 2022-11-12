@@ -28,10 +28,17 @@
     <color name="rosado_3">#F2CEDB</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Tienda_de_Rosita</string>
+    <string name="default_web_client_id" translatable="false">871586906879-evkl3bbeme9utn38n89a27cv8q9rbsvv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">871586906879</string>
+    <string name="google_api_key" translatable="false">AIzaSyCRmZWsOTzmns1aa1DnR4TtBTfW8syYphs</string>
+    <string name="google_app_id" translatable="false">1:871586906879:android:83f30a5399f4c820f042ca</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCRmZWsOTzmns1aa1DnR4TtBTfW8syYphs</string>
+    <string name="google_storage_bucket" translatable="false">tienda-de-rosita-6bae2.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ingresar">Ingresar</string>
     <string name="ingrese_contrase_a">Ingrese Contraseña.</string>
     <string name="ingrese_usuario">Ingrese Usuario.</string>
+    <string name="project_id" translatable="false">tienda-de-rosita-6bae2</string>
     <string name="registrate">Registrate</string>
     <string name="saquese_la_espinita_del_antojo">Saquese la espinita del antojo</string>
     <string name="tienda_de_rosita">TIENDA DE ROSITA</string>

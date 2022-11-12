@@ -14,4 +14,8 @@ class home : AppCompatActivity() {
 
 
     }
+
+    override fun onBackPressed() {
+        return
+    }
 }

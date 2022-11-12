@@ -12,9 +12,19 @@ import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import com.example.tienda_de_rosita.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 
 class ConfiguracionFragment : Fragment() {
+    lateinit var firebaseAuth: FirebaseAuth
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        firebaseAuth= Firebase.auth
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -38,6 +48,7 @@ class ConfiguracionFragment : Fragment() {
             }
         }
 
+
         val btmp=view.findViewById<TextView>(R.id.texp)
         btmp.setOnClickListener{
             findNavController().navigate(R.id.action_configuracionFragment_to_perfilFragment)
@@ -60,7 +71,9 @@ class ConfiguracionFragment : Fragment() {
 
         val botons=view.findViewById<Button>(R.id.buttonsalirc)
         botons.setOnClickListener{
+            firebaseAuth.signOut()
             findNavController().navigate(R.id.action_configuracionFragment_to_loginActivity)
+            true
         }
 
     }

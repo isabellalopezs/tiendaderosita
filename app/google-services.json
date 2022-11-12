@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871586906879",
+    "project_id": "tienda-de-rosita-6bae2",
+    "storage_bucket": "tienda-de-rosita-6bae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871586906879:android:83f30a5399f4c820f042ca",
+        "android_client_info": {
+          "package_name": "com.example.tienda_de_rosita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871586906879-evkl3bbeme9utn38n89a27cv8q9rbsvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRmZWsOTzmns1aa1DnR4TtBTfW8syYphs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871586906879-evkl3bbeme9utn38n89a27cv8q9rbsvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
