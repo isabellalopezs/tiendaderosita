@@ -3001,18 +3001,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id button
-id buttonBatido
-id buttonFresas
-id buttonGalletas
-id buttonGelatina
-id buttonMuffin
 id buttonNavigationMenu
 id buttonPanel
-id buttonParfait
-id buttonPieDeLimon
-id buttonPudin
-id buttonTortaFria
-id buttonVolcan
 id buttoncamara
 id buttongaleria
 id buttonsalirc
@@ -3071,6 +3061,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descripcion
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3133,6 +3124,7 @@ id galletasFragment
 id gelatinaFragment
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3303,16 +3295,6 @@ id pin
 id position
 id postLayout
 id precio
-id precioBatido
-id precioFresas
-id precioGalletas
-id precioGelatina
-id precioMuffin
-id precioParfait
-id precioPieDeLimon
-id precioPudin
-id precioTortaFria
-id precioVolcan
 id pressed
 id progress_circular
 id progress_horizontal
@@ -3320,6 +3302,7 @@ id pudinFragment
 id radio
 id ratio
 id rectangles
+id recyclerview
 id registrate_log_bt
 id registrate_registro_bt
 id restart
@@ -3362,6 +3345,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signo
 id sin
 id skipCollapsed
 id skipped
