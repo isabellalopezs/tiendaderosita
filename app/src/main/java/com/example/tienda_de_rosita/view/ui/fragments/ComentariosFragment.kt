@@ -7,13 +7,28 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
+import androidx.databinding.DataBindingUtil.setContentView
+import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
 import com.example.tienda_de_rosita.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import java.lang.ref.PhantomReference
 
 
 class ComentariosFragment : Fragment() {
+    lateinit var nombre:EditText
+    lateinit var correo:EditText
+    lateinit var comentario:EditText
+    lateinit var dbReference: DatabaseReference
+    lateinit var enviarc:Button
+    lateinit  var database: FirebaseDatabase
+
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -25,6 +40,16 @@ class ComentariosFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        database=FirebaseDatabase.getInstance()
+        dbReference=database.reference.child("Comentarios")
+        nombre= view.findViewById(R.id.nombrec)
+        correo=view.findViewById(R.id.emailc)
+        comentario=view.findViewById(R.id.comentariosc)
+        enviarc=view.findViewById(R.id.enviarc)
+        enviarc.setOnClickListener{
+            guardarcoment()
+        }
 
         val btm = view.findViewById<BottomNavigationView>(R.id.buttonNavigationMenu)
         btm.setOnNavigationItemReselectedListener {
@@ -40,4 +65,17 @@ class ComentariosFragment : Fragment() {
         }
 
     }
+    fun guardarcoment(){
+        val namea:String=nombre.text.toString()
+        val nameb:String=correo.text.toString()
+        val namec:String=comentario.text.toString()
+
+        val userdb=dbReference.child(toString())
+        userdb.child("Nombre").setValue(namea)
+        userdb.child("Correo").setValue(nameb)
+        userdb.child("Comentarios").setValue(namec)
+        Toast.makeText(context, "Gracias por su comentario", Toast.LENGTH_SHORT).show()
+    }
+
+
 }

@@ -2961,6 +2961,7 @@ id animateToStart
 id animation_view
 id antiClockwise
 id anticipate
+id apellidoperfil
 id apellidosregistro
 id arc
 id asConfigured
@@ -3032,6 +3033,7 @@ id clockwise
 id closest
 id collapseActionView
 id comentariosFragment2
+id comentariosc
 id compress
 id configuracionFragment
 id configuracionm
@@ -3044,6 +3046,7 @@ id contiguous
 id continuousVelocity
 id contraseñaregistro
 id coordinator
+id correoperfil
 id correoregistro
 id cos
 id counterclockwise
@@ -3088,11 +3091,10 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextEmailAddress2
-id editTextTextPersonName5
-id editTextTextPersonName6
+id edicionperfil
 id edit_query
 id elastic
+id emailc
 id embed
 id end
 id endToStart
@@ -3261,6 +3263,8 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nombrec
+id nombreperfil
 id nombresregistro
 id none
 id normal
@@ -3395,6 +3399,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id telefonoperfil
 id telefonoregistro
 id terminosFragment
 id terrain
@@ -3418,17 +3423,12 @@ id textView20
 id textView21
 id textView22
 id textView23
-id textView24
 id textView25
 id textView26
 id textView27
 id textView28
 id textView29
 id textView3
-id textView30
-id textView31
-id textView32
-id textView33
 id textView4
 id textView5
 id textView6
@@ -3475,6 +3475,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usuarioperfil
 id usuarioregistro
 id vertical_only
 id view_offset_helper
