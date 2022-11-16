@@ -37,8 +37,8 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="330dp"
+        android:id="@+id/nombrec"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="200dp"
@@ -54,8 +54,8 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="333dp"
+        android:id="@+id/emailc"
+        android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="300dp"
@@ -107,7 +107,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/comentariosc"
         android:layout_width="328dp"
         android:layout_height="140dp"
         android:layout_marginLeft="40dp"

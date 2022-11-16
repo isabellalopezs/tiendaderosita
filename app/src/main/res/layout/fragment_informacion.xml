@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F2A2C0"
-    android:textAlignment="gravity"
     tools:context=".view.ui.fragments.InformacionFragment">
 
     <TextView
@@ -14,7 +13,6 @@
         android:layout_height="62dp"
         android:background="@color/morado_1"
         android:fontFamily="@font/sourcesanstreslight"
-        android:gravity="center"
         android:text="          Informacion de la tienda"
         android:textAlignment="textStart"
         android:textSize="25sp"
@@ -46,22 +44,12 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="273dp"
-        android:layout_height="158dp"
-        android:layout_marginLeft="87dp"
-        android:layout_marginTop="330dp"
-        android:addStatesFromChildren="false"
-        android:contentDescription="mapa" />
-
     <Button
         android:id="@+id/atrasi"
         android:layout_width="122dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="135dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="630dp"
         android:background="@color/rosado_1"
         android:text="Atrás"
         android:textSize="16sp"
@@ -78,5 +66,26 @@
         tools:ignore="MissingConstraints">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:layout_marginTop="310dp">
+            <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            tools:layout="@layout/fragment_informacion" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/instagrambt"
+        android:layout_width="89dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="610dp"
+        android:background="@color/rosado_2"
+        android:src="@drawable/insta" />
 
 </FrameLayout>

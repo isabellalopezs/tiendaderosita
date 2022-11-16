@@ -7,17 +7,31 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tienda_de_rosita.R
 import com.example.tienda_de_rosita.view.adapter.ProductosAdapter
+import com.example.tienda_de_rosita.viewmodel.ProductViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 
 class menuFragment : Fragment() {
 
     lateinit var recyclerProduc: RecyclerView
+    lateinit var firebaseAuth: FirebaseAuth
+    lateinit var adapter: ProductosAdapter
+    private val viewmodel by lazy{ViewModelProvider(this).get(ProductViewModel::class.java)}
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        firebaseAuth= Firebase.auth
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,10 +39,17 @@ class menuFragment : Fragment() {
     ): View? {
         val view =inflater.inflate(R.layout.fragment_menu, container, false)
         recyclerProduc= view.findViewById(R.id.recyclerview)
-        val adapter=ProductosAdapter()
+        adapter=ProductosAdapter(requireContext())
         recyclerProduc.layoutManager= LinearLayoutManager(context)
         recyclerProduc.adapter=adapter
+        observeData()
         return view
+    }
+    fun observeData(){
+        viewmodel.productData().observe(viewLifecycleOwner, Observer {
+            adapter.setListData(it)
+            adapter.notifyDataSetChanged()
+        })
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -46,3 +67,49 @@ class menuFragment : Fragment() {
 
 
 }
+            /*
+            val btmpt=view.findViewById<Button>(R.id.buttonTortaFria)
+            btmpt.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_tortaFragment)
+            }
+            val btmpv=view.findViewById<Button>(R.id.buttonVolcan)
+            btmpv.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_volcanFragment)
+            }
+            val btmpp=view.findViewById<Button>(R.id.buttonPudin)
+            btmpp.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_pudinFragment)
+            }
+            val btmppu=view.findViewById<Button>(R.id.buttonPieDeLimon)
+            btmppu.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_pieFragment)
+            }
+            val btmpar=view.findViewById<Button>(R.id.buttonParfait)
+            btmpar.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_parfaitFragment)
+            }
+            val btmmuf=view.findViewById<Button>(R.id.buttonMuffin)
+            btmmuf.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_muffinFragment)
+            }
+            val btmg=view.findViewById<Button>(R.id.buttonGelatina)
+            btmg.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_gelatinaFragment)
+            }
+            val btmga=view.findViewById<Button>(R.id.buttonGalletas)
+            btmga.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_galletasFragment)
+            }
+            val btmf=view.findViewById<Button>(R.id.buttonFresas)
+            btmf.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_fresasFragment)
+            }
+            val btmbt=view.findViewById<Button>(R.id.buttonBatido)
+            btmbt.setOnClickListener{
+                findNavController().navigate(R.id.action_menuFragment_to_batidoFragment)
+            }
+            */
+
+
+
+
