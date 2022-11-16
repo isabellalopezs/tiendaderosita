@@ -28,12 +28,12 @@
         android:id="@+id/textView22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/sourcesanstreslight"
-        android:text="Aqui puedes dejar tos comentarios"
+        android:text="Aqui puedes dejarnos comentarios"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="29sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/stylo_borde"
         android:ems="10"
@@ -58,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="210dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/stylo_borde"
         android:ems="10"
@@ -72,22 +72,22 @@
 
     <TextView
         android:id="@+id/textView29"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="266dp"
         android:fontFamily="@font/sourcesanstreslight"
-        android:text="Comentarios, quejas o felicitaciones"
+        android:text="Dejanos tu comentario, queja o felicitacion"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="29sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/enviarc"
         android:layout_width="134dp"
-        android:layout_height="62dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="230dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="430dp"
         android:background="@color/ic_launcher_background"
         android:fontFamily="@font/sourcesanstreslight"
         android:text="Enviar"
@@ -97,26 +97,34 @@
     <Button
         android:id="@+id/atrasc"
         android:layout_width="134dp"
-        android:layout_height="62dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="430dp"
         android:background="@color/rosado_1"
         android:fontFamily="@font/sourcesanstreslight"
         android:text="Atras"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/comentariosc"
         android:layout_width="328dp"
-        android:layout_height="140dp"
+        android:layout_height="80dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="340dp"
         android:background="@drawable/stylo_borde"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/black"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewcom"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_marginTop="488dp"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/buttonNavigationMenu"
@@ -129,5 +137,4 @@
         tools:ignore="MissingConstraints">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
 </FrameLayout>
