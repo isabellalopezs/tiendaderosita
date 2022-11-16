@@ -21,6 +21,7 @@ drawable cheque
 drawable chopeer
 drawable comentai
 drawable confuguracion
+drawable flecha
 drawable fresas
 drawable galletas
 drawable gelatina
@@ -139,8 +140,10 @@ id buttoncamara
 id buttongaleria
 id buttonsalirc
 id cardViewProductos
+id card_comentario
 id carritoFragment
 id carritom
+id comentario
 id comentariosFragment2
 id comentariosc
 id configuracionFragment
@@ -177,6 +180,7 @@ id menuFragment
 id muffinFragment
 id nav_host_fragment
 id nave_grafoo
+id nombre
 id nombrec
 id nombreperfil
 id nombresregistro
@@ -187,6 +191,7 @@ id pieFragment
 id precio
 id pudinFragment
 id recyclerview
+id recyclerviewcom
 id registrate_log_bt
 id registrate_registro_bt
 id signo
@@ -244,6 +249,7 @@ layout activity_home
 layout activity_login
 layout activity_main
 layout activity_registro
+layout card_view_comentarios
 layout card_view_productos
 layout fragment_batido
 layout fragment_carrito

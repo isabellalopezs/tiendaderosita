@@ -2701,6 +2701,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable flecha
 drawable fresas
 drawable galletas
 drawable gelatina
@@ -3012,6 +3013,7 @@ id cache_measures
 id callMeasure
 id cancel_button
 id cardViewProductos
+id card_comentario
 id carritoFragment
 id carritom
 id carryVelocity
@@ -3033,6 +3035,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id comentario
 id comentariosFragment2
 id comentariosc
 id compress
@@ -3265,6 +3268,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nombre
 id nombrec
 id nombreperfil
 id nombresregistro
@@ -3309,6 +3313,7 @@ id radio
 id ratio
 id rectangles
 id recyclerview
+id recyclerviewcom
 id registrate_log_bt
 id registrate_registro_bt
 id restart
@@ -3639,6 +3644,7 @@ layout activity_main
 layout activity_registro
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout card_view_comentarios
 layout card_view_productos
 layout custom_dialog
 layout design_bottom_navigation_item

@@ -12,7 +12,10 @@ import android.widget.Toast
 import androidx.databinding.DataBindingUtil.setContentView
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.tienda_de_rosita.R
+import com.example.tienda_de_rosita.view.adapter.ComentariosAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -26,6 +29,7 @@ class ComentariosFragment : Fragment() {
     lateinit var dbReference: DatabaseReference
     lateinit var enviarc:Button
     lateinit  var database: FirebaseDatabase
+    lateinit var recyclerCom: RecyclerView
 
 
 
@@ -35,6 +39,10 @@ class ComentariosFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view=inflater.inflate(R.layout.fragment_comentarios, container, false)
+        recyclerCom=view.findViewById(R.id.recyclerviewcom)
+        val adapterComentarios=ComentariosAdapter()
+        recyclerCom.layoutManager=LinearLayoutManager(context)
+        recyclerCom.adapter=adapterComentarios
         return view
     }
 
@@ -76,6 +84,7 @@ class ComentariosFragment : Fragment() {
         userdb.child("Comentarios").setValue(namec)
         Toast.makeText(context, "Gracias por su comentario", Toast.LENGTH_SHORT).show()
     }
+
 
 
 }
