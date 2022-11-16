@@ -2720,6 +2720,7 @@ int drawable ic_mtrl_chip_close_circle 0x7f0800ac
 int drawable icocarrito 0x7f0800ad
 int drawable icoconfug 0x7f0800ae
 int drawable infooo 0x7f0800af
+int drawable insta 0x7f080106
 int drawable limoooo 0x7f0800b0
 int drawable lineas 0x7f0800b1
 int drawable lomo 0x7f0800b2
@@ -3165,6 +3166,7 @@ int id indeterminate 0x7f0a015e
 int id info 0x7f0a015f
 int id informacionFragment 0x7f0a0160
 int id ingresar_log_bt 0x7f0a0161
+int id instagrambt 0x7f0a02c3
 int id invisible 0x7f0a0162
 int id inward 0x7f0a0163
 int id italic 0x7f0a0164
@@ -3186,7 +3188,7 @@ int id locale 0x7f0a0173
 int id loginActivity 0x7f0a0174
 int id lottie_layer_name 0x7f0a0175
 int id ltr 0x7f0a0176
-int id mapView 0x7f0a0177
+int id map 0x7f0a02c2
 int id marquee 0x7f0a0178
 int id masked 0x7f0a0179
 int id match_constraint 0x7f0a017a
@@ -3808,6 +3810,7 @@ int string gcm_defaultSenderId 0x7f140044
 int string google_api_key 0x7f140045
 int string google_app_id 0x7f140046
 int string google_crash_reporting_api_key 0x7f140047
+int string google_map_key 0x7f1400b5
 int string google_storage_bucket 0x7f140048
 int string hello_blank_fragment 0x7f140049
 int string hide_bottom_view_on_scroll_behavior 0x7f14004a

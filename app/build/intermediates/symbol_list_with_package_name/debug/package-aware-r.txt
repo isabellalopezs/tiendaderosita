@@ -2721,6 +2721,7 @@ drawable ic_mtrl_chip_close_circle
 drawable icocarrito
 drawable icoconfug
 drawable infooo
+drawable insta
 drawable limoooo
 drawable lineas
 drawable lomo
@@ -3166,6 +3167,7 @@ id indeterminate
 id info
 id informacionFragment
 id ingresar_log_bt
+id instagrambt
 id invisible
 id inward
 id italic
@@ -3187,7 +3189,7 @@ id locale
 id loginActivity
 id lottie_layer_name
 id ltr
-id mapView
+id map
 id marquee
 id masked
 id match_constraint
@@ -3809,6 +3811,7 @@ string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_map_key
 string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
