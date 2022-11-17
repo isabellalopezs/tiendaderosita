@@ -21,7 +21,7 @@
         android:src="@drawable/muff" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/nombresregistro"
         android:layout_width="278dp"
         android:layout_height="37dp"
         android:layout_alignParentStart="true"
@@ -43,7 +43,7 @@
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/apellidosregistro"
         android:layout_width="278dp"
         android:layout_height="37dp"
         android:layout_alignParentStart="true"
@@ -63,7 +63,7 @@
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/usuarioregistro"
         android:layout_width="278dp"
         android:layout_height="37dp"
         android:layout_alignParentStart="true"
@@ -83,7 +83,7 @@
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/contraseñaregistro"
         android:layout_width="278dp"
         android:layout_height="37dp"
         android:layout_alignParentStart="true"
@@ -104,7 +104,7 @@
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/correoregistro"
         android:layout_width="278dp"
         android:layout_height="37dp"
         android:layout_alignParentStart="true"
@@ -125,7 +125,7 @@
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/telefonoregistro"
         android:layout_width="278dp"
         android:layout_height="37dp"
         android:layout_alignParentStart="true"
