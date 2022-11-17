@@ -3,17 +3,28 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <target>android-32</target>
+        <device id="pixel_3a" />
+        <device id="pixel_3a" />
+        <device id="_device_class_desktop" />
+        <option name="nonWearDeviceLastStateName" value="Landscape" />
+        <target>android-33</target>
       </config>
     </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e4185956-8124-463f-bc65-1fdaf542b75b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
+=======
+    <list default="true" id="4847bfe9-3d77-439a-ad5d-6b0b44c81bc9" name="Changes" comment="" />
+>>>>>>> c96635bab0bf407899f645605c8e9b375b2d317b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,26 +56,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="developer" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_configuracion.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2GgYjELZyjMgw8TnCgZ6Yc0t9Qp" />
+  <component name="ProjectId" id="2GjANksQD6A95lBlBbTMuQ4ILR6" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -73,25 +88,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Proyecto\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Proyecto\app\src\main\res\font" />
+      <recent name="C:\Users\User\Desktop\Ciclo4\app\src\main\res\drawable" />
+      <recent name="C:\Users\User\Desktop\Tienda rosita\app" />
       <recent name="C:\Users\User\Desktop\Proyecto\app\src\main\res\drawable" />
+      <recent name="C:\Users\User\Desktop\Proyecto\app\src\main\res\font" />
       <recent name="C:\Users\User\Desktop\Proyecto\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\User\Desktop\Proyecto\app\src\main\res\raw" />
     </key>
     <key name="android.template.2060763003">
       <recent name="com.example.tienda_de_rosita" />
@@ -170,23 +187,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4185956-8124-463f-bc65-1fdaf542b75b" name="Changes" comment="" />
-      <created>1666811827013</created>
+      <changelist id="4847bfe9-3d77-439a-ad5d-6b0b44c81bc9" name="Changes" comment="" />
+      <created>1666891581711</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666811827013</updated>
+      <updated>1666891581711</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -196,10 +203,37 @@
             <State />
           </value>
         </entry>
+        <entry key="cfc2d94a-e9a3-41e3-8207-fa7b1259edd3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/User/Desktop/Proyecto/app" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="cfc2d94a-e9a3-41e3-8207-fa7b1259edd3" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
 </project>
