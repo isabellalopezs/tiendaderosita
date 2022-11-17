@@ -23,25 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "797"
-                    },
-                    "to": {
-                        "startLines": "6080",
-                        "startColumns": "4",
-                        "startOffsets": "418827",
-                        "endLines": "6092",
-                        "endColumns": "12",
-                        "endOffsets": "419389"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\3bbe4d99e020e578d11de403b81c7748\\transformed\\appcompat-resources-1.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -75,6 +56,25 @@
                         "startOffsets": "103870",
                         "endColumns": "53",
                         "endOffsets": "103919"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "6080",
+                        "startColumns": "4",
+                        "startOffsets": "418827",
+                        "endLines": "6092",
+                        "endColumns": "12",
+                        "endOffsets": "419389"
                     }
                 },
                 {
@@ -186,6 +186,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "227"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "19",
+                        "endColumns": "12",
+                        "endOffsets": "3834"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\4158f7333396a30fc700b688bffb7e8e\\transformed\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -205,20 +224,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "7,9,5,6,2,3,4,8",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "277,363,189,233,57,101,145,320",
-                        "endColumns": "41,38,42,42,42,42,42,41",
-                        "endOffsets": "314,397,227,271,95,139,183,357"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,720",
+                        "endColumns": "143,81,103,108,119,105,82",
+                        "endOffsets": "194,276,380,489,609,715,798"
                     },
                     "to": {
-                        "startLines": "638,706,858,859,880,881,882,893",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "35194,40015,50983,51026,52469,52512,52555,53301",
-                        "endColumns": "41,38,42,42,42,42,42,41",
-                        "endOffsets": "35231,40049,51021,51064,52507,52550,52593,53338"
+                        "startLines": "1778,1789,1790,1791,1792,1794,1902",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "115301,116288,116370,116474,116583,116840,132051",
+                        "endColumns": "143,81,103,108,119,105,82",
+                        "endOffsets": "115440,116365,116469,116578,116698,116941,132129"
                     }
                 },
                 {
@@ -241,6 +260,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,9,5,6,2,3,4,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "277,363,189,233,57,101,145,320",
+                        "endColumns": "41,38,42,42,42,42,42,41",
+                        "endOffsets": "314,397,227,271,95,139,183,357"
+                    },
+                    "to": {
+                        "startLines": "638,706,858,859,880,881,882,893",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "35194,40015,50983,51026,52469,52512,52555,53301",
+                        "endColumns": "41,38,42,42,42,42,42,41",
+                        "endOffsets": "35231,40049,51021,51064,52507,52550,52593,53338"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\b84362ca0a15c38e0211eb93c118741d\\transformed\\glide-4.13.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -258,22 +294,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\debug\\res\\values\\ic_launcher_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "227"
+                        "endColumns": "56",
+                        "endOffsets": "109"
                     },
                     "to": {
-                        "startLines": "16",
+                        "startLines": "709",
                         "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "19",
-                        "endColumns": "12",
-                        "endOffsets": "3834"
+                        "startOffsets": "40189",
+                        "endColumns": "56",
+                        "endOffsets": "40241"
                     }
                 },
                 {
@@ -296,23 +330,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,10,3,4,5,2,8,7,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "17,552,123,170,238,72,402,339,300",
-                        "endColumns": "53,69,45,66,60,49,89,61,37",
-                        "endOffsets": "66,617,164,232,294,117,487,396,333"
-                    },
-                    "to": {
-                        "startLines": "1747,1795,1798,1799,1800,1903,1904,1907,1908",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "111230,116946,117323,117369,117436,132134,132184,132398,132460",
-                        "endColumns": "53,69,45,66,60,49,89,61,37",
-                        "endOffsets": "111279,117011,117364,117431,117492,132179,132269,132455,132493"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\a8f95f231c1bb1d95e8586e779e79593\\transformed\\window-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -329,6 +346,23 @@
                         "endLines": "522,523,524,525,1557,8540,8551,12188,12200,12208",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "29060,29120,29172,29217,99954,575327,575762,708477,708917,709226"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,10,3,4,5,2,8,7,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,552,123,170,238,72,402,339,300",
+                        "endColumns": "53,69,45,66,60,49,89,61,37",
+                        "endOffsets": "66,617,164,232,294,117,487,396,333"
+                    },
+                    "to": {
+                        "startLines": "1747,1795,1798,1799,1800,1903,1904,1907,1908",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "111230,116946,117323,117369,117436,132134,132184,132398,132460",
+                        "endColumns": "53,69,45,66,60,49,89,61,37",
+                        "endOffsets": "111279,117011,117364,117431,117492,132179,132269,132455,132493"
                     }
                 },
                 {
@@ -476,40 +510,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,720",
-                        "endColumns": "143,81,103,108,119,105,82",
-                        "endOffsets": "194,276,380,489,609,715,798"
-                    },
-                    "to": {
-                        "startLines": "1778,1789,1790,1791,1792,1794,1902",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "115301,116288,116370,116474,116583,116840,132051",
-                        "endColumns": "143,81,103,108,119,105,82",
-                        "endOffsets": "115440,116365,116469,116578,116698,116941,132129"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values\\google_maps_api.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "136",
-                        "endOffsets": "189"
-                    },
-                    "to": {
-                        "startLines": "1793",
-                        "startColumns": "4",
-                        "startOffsets": "116703",
-                        "endColumns": "136",
-                        "endOffsets": "116835"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\fd60d9071a52e7593064609dc59fb263\\transformed\\lifecycle-runtime-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -524,6 +524,25 @@
                         "startOffsets": "103767",
                         "endColumns": "42",
                         "endOffsets": "103805"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values\\font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,263,1993",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "257,1987,3582"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -565,6 +584,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values\\google_maps_api.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "136",
+                        "endOffsets": "189"
+                    },
+                    "to": {
+                        "startLines": "1793",
+                        "startColumns": "4",
+                        "startOffsets": "116703",
+                        "endColumns": "136",
+                        "endOffsets": "116835"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\921a2722077cee1a5615d5226f788f68\\transformed\\lottie-3.4.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -584,25 +620,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "57,263,1993",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "257,1987,3582"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\d808aeb4ccd62e846d0060fc6a86e8cd\\transformed\\lifecycle-viewmodel-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -617,23 +634,6 @@
                         "startOffsets": "103924",
                         "endColumns": "49",
                         "endOffsets": "103969"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\debug\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "709",
-                        "startColumns": "4",
-                        "startOffsets": "40189",
-                        "endColumns": "56",
-                        "endOffsets": "40241"
                     }
                 },
                 {
