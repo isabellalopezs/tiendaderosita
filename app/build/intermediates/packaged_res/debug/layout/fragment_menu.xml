@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rosado_2"
+    android:orientation="vertical"
+    tools:context=".view.ui.fragments.menuFragment">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/morado_1"
+                android:fontFamily="@font/sourcesanstreslight"
+                android:gravity="center"
+                android:text="BIENVENIDO A LA TIENDA DE ROSITA"
+                android:textSize="35dp"
+                android:textStyle="bold">
+            </TextView>
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-75dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/buttonNavigationMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/morado_1"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:menu="@menu/menu_navigation_bar"
+            tools:ignore="MissingConstraints">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </RelativeLayout>
+
+</LinearLayout>

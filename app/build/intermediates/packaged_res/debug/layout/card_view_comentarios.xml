@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_comentario"
+    android:layout_margin="12dp"
+    app:cardBackgroundColor="@color/rosado_2"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="6dp"
+    app:contentPadding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE"
+            android:textSize="20dp"
+            android:textColor="@color/morado_2">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" comento:"
+            android:textSize="20dp"
+            android:layout_toEndOf="@id/nombre"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:id="@+id/comentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Este es el comentario que hizo ##### sobre nuestra tienda"
+            android:textSize="20dp"
+            android:layout_below="@id/nombre"
+            android:textColor="@color/black"
+            android:textAlignment="center">
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
