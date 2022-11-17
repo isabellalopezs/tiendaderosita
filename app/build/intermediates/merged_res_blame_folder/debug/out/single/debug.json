@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_torta.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_torta.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_pie.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_pie.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_gelatina.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/gelatina.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_parfait.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_parfait.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_lomo.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/lomo.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_flecha.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/flecha.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_cheque.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/cheque.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_card_view_productos.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/card_view_productos.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_personaaa.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/personaaa.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_infooo.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/infooo.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/font_source_sans_pro_extralight.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/font/source_sans_pro_extralight.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_insta.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/insta.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_menuicono.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/menuicono.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/font_source_sans_pro_light.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/font/source_sans_pro_light.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_casaaaa.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/casaaaa.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_comentai.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/comentai.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_fresas.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/fresas.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_terminos.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_terminos.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_postredos.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/postredos.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_activity_login.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/raw_muf.json.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/raw/muf.json"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_lineas.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/lineas.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_stylo_borde.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/stylo_borde.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_icocarrito.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/icocarrito.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_informacion.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_informacion.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_galletas.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_galletas.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-pngs-52:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/navigation_nave_grafoo.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/navigation/nave_grafoo.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_comentarios.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_comentarios.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_muff.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/muff.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_activity_home.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_muffin.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_muffin.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_fresas.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_fresas.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_confuguracion.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/confuguracion.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_muffin.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/muffin.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_configuracion.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_configuracion.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_postreuno.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/postreuno.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/menu_menu_navigation_bar.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/menu/menu_navigation_bar.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_postrecuatro.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/postrecuatro.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_galletas.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/galletas.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_carrito.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_carrito.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_batido.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_batido.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_perfil.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_carritocompra.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/carritocompra.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_chopeer.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/chopeer.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_homeico.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/homeico.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_menu.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_menu.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_icoconfug.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/icoconfug.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_postretres.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/postretres.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_volcan.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_volcan.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_pudin.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/pudin.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_card_view_comentarios.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/card_view_comentarios.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_limoooo.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/limoooo.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_manoos.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/manoos.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_gelatina.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_gelatina.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/font_sourcesanstreslight.ttf.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/font/sourcesanstreslight.ttf"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_torta.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/torta.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_batido.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/batido.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_carrito.png.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/carrito.png"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_activity_registro.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/activity_registro.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_pudin.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_pudin.xml"
+    }
+]
