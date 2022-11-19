@@ -149,6 +149,7 @@ id comentariosc
 id configuracionFragment
 id configuracionm
 id contraseñaregistro
+id correo
 id correoperfil
 id correoregistro
 id descripcion
