@@ -3049,6 +3049,7 @@ int id contiguous 0x7f0a00e8
 int id continuousVelocity 0x7f0a00e9
 int id contraseñaregistro 0x7f0a00ea
 int id coordinator 0x7f0a00eb
+int id correo 0x7f0a02c0
 int id correoperfil 0x7f0a00ec
 int id correoregistro 0x7f0a00ed
 int id cos 0x7f0a00ee
