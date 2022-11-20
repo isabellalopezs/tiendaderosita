@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_below="@id/encabezado"
+                android:layout_below="@id/textoiva"
                 android:text="Total"
                 android:textAlignment="center"
                 android:textColor="@color/black"
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/morado_1"
                 android:layout_marginTop="10dp"
-                android:layout_below="@id/encabezado"
+                android:layout_below="@id/textoiva"
                 android:text="0"
                 android:layout_alignParentRight="true"
                 android:textAlignment="center"
@@ -58,6 +58,84 @@
             </TextView>
             <TextView
                 android:id="@+id/signod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/textoiva"
+                android:layout_toEndOf="@+id/texto"
+                android:text="$"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:paddingTop="6dp"
+                android:paddingLeft="43dp">
+            </TextView>
+            <TextView
+                android:id="@+id/iva"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="@color/morado_1"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/textosub"
+                android:text="0"
+                android:layout_alignParentRight="true"
+                android:textAlignment="center"
+                android:textSize="40dp">
+            </TextView>
+            <TextView
+                android:id="@+id/textoiva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/subtotal"
+                android:text="Iva 19%"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:paddingTop="0dp"
+                android:paddingLeft="15dp">
+            </TextView>
+            <TextView
+                android:id="@+id/sigiva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/textosub"
+                android:layout_toEndOf="@+id/texto"
+                android:text="$"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:paddingTop="6dp"
+                android:paddingLeft="43dp">
+            </TextView>
+            <TextView
+                android:id="@+id/subtotal"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="@color/morado_1"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/encabezado"
+                android:text="0"
+                android:layout_alignParentRight="true"
+                android:textAlignment="center"
+                android:textSize="40dp">
+            </TextView>
+            <TextView
+                android:id="@+id/textosub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/encabezado"
+                android:text="Subtotal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:paddingTop="6dp"
+                android:paddingLeft="15dp">
+            </TextView>
+            <TextView
+                android:id="@+id/sigsub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -70,6 +148,7 @@
                 android:paddingTop="6dp"
                 android:paddingLeft="43dp">
             </TextView>
+
         </RelativeLayout>
 
         <androidx.recyclerview.widget.RecyclerView

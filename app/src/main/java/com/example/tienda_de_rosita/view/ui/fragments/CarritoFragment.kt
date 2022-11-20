@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
@@ -27,6 +28,8 @@ class CarritoFragment : Fragment(), OnCompraItemClickListener {
     lateinit var adapter: ComprasAdapter
     lateinit var precioT: TextView
     lateinit var compraT:TextView
+    lateinit var subt:TextView
+    lateinit var iv:TextView
     val database: FirebaseFirestore=FirebaseFirestore.getInstance()
     private val viewModel by lazy { ViewModelProvider(this).get(ComprasViwModel::class.java) }
 
@@ -40,11 +43,15 @@ class CarritoFragment : Fragment(), OnCompraItemClickListener {
         recyclerView=view.findViewById(R.id.recyclerviewcompras)
         precioT=view.findViewById(R.id.preciototal)
         compraT=view.findViewById(R.id.realizar)
+        iv=view.findViewById(R.id.iva)
+        subt=view.findViewById(R.id.subtotal)
         adapter= ComprasAdapter(requireContext(),this)
         recyclerView.layoutManager=LinearLayoutManager(context)
         recyclerView.adapter=adapter
         abserData()
         preciototla()
+        subtotal()
+        eliva()
         compraT.setOnClickListener{
             realizarcompra()
         }
@@ -72,6 +79,42 @@ class CarritoFragment : Fragment(), OnCompraItemClickListener {
                 val preciototal = preciounitario.mapNotNull{it.toIntOrNull()}.sum()
                 precioT.setText(Integer.toString(preciototal))
             }
+
+    }
+
+    private fun eliva(){
+        database.collection("compras")
+            .get()
+            .addOnSuccessListener {
+                    result->
+                val preciounitario= mutableListOf<String>()
+                for(document in result){
+                    val precio=document["precio"].toString()
+                    preciounitario.add(precio!!)
+                }
+                val preciototal = preciounitario.mapNotNull{it.toIntOrNull()}.sum()
+                var sub = (preciototal*0.19).toInt()
+                iv.setText(sub.toString())
+            }
+
+    }
+
+    private fun subtotal(){
+        database.collection("compras")
+            .get()
+            .addOnSuccessListener {
+                    result->
+                val preciounitario= mutableListOf<String>()
+                for(document in result){
+                    val precio=document["precio"].toString()
+                    preciounitario.add(precio!!)
+                }
+                val preciototal = preciounitario.mapNotNull{it.toIntOrNull()}.sum()
+                var sub = (preciototal*0.19).toInt()
+                var elsub= preciototal-sub
+                subt.setText(elsub.toString())
+            }
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -88,14 +131,15 @@ class CarritoFragment : Fragment(), OnCompraItemClickListener {
 
 
     }
-
     private fun realizarcompra(){
         val builder=AlertDialog.Builder(requireContext())
         builder.setTitle("Compra Tienda Rosita")
         builder.setMessage("¿Desea Realizar esta compra?")
         builder.setPositiveButton("Aceptar"){
             dialog,which->
+            guardarfactura()
             findNavController().navigate(R.id.menuFragment)
+            Toast.makeText(context, "Compra exitosa", Toast.LENGTH_SHORT).show()
         }
         builder.setNegativeButton("Cancelar",null)
         builder.show()
@@ -107,4 +151,19 @@ class CarritoFragment : Fragment(), OnCompraItemClickListener {
             .delete()
         findNavController().navigate(R.id.carritoFragment)
     }
+    fun guardarfactura(){
+        val namea:String=subt.text.toString()
+        val nameb:String=iv.text.toString()
+        val namec:String=precioT.text.toString()
+
+        val comment= hashMapOf(
+            "Subtotal" to namea,
+            "Iva 19%" to nameb,
+            "Total" to namec
+        )
+        database.collection("Facturas")
+            .document(nameb)
+            .set(comment)
+    }
+
 }

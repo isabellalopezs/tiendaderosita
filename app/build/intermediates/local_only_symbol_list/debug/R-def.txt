@@ -181,6 +181,7 @@ id imginfo
 id informacionFragment
 id ingresar_log_bt
 id instagrambt
+id iva
 id linear
 id loginActivity
 id map
@@ -205,8 +206,11 @@ id recyclerviewcom
 id recyclerviewcompras
 id registrate_log_bt
 id registrate_registro_bt
+id sigiva
 id signo
 id signod
+id sigsub
+id subtotal
 id telefonoperfil
 id telefonoregistro
 id terminosFragment
@@ -231,6 +235,8 @@ id textView6
 id textView7
 id textView8
 id texto
+id textoiva
+id textosub
 id textt
 id titulo
 id tortaFragment

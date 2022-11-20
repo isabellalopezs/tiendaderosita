@@ -92,6 +92,10 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_terminos.xml"
     },
     {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_card_view_compras.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/card_view_compras.xml"
+    },
+    {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_postredos.png.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/postredos.png"
     },
@@ -132,17 +136,8 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_galletas.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "com.example.tienda_de_rosita.app-pngs-52:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-=======
-        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/navigation_nave_grafoo.xml.flat",
-        "source": "com.example.tienda_de_rosita.app-main-59:/navigation/nave_grafoo.xml"
-    },
-    {
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\drawable_muff.png.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-59:\\drawable\\muff.png"
->>>>>>> 86f2f10752986bb62d554dcb68fcc6d38120e1ff
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/navigation_nave_grafoo.xml.flat",
@@ -157,17 +152,8 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/muff.png"
     },
     {
-<<<<<<< HEAD
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_activity_home.xml.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/activity_home.xml"
-=======
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\drawable_ic_baseline_delete_forever_24.xml.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-59:\\drawable\\ic_baseline_delete_forever_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-debug-58:\\mipmap-xxhdpi\\ic_launcher.png"
->>>>>>> 86f2f10752986bb62d554dcb68fcc6d38120e1ff
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -258,6 +244,10 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_menu.xml"
     },
     {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_ic_baseline_add_shopping_cart_24.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/ic_baseline_add_shopping_cart_24.xml"
+    },
+    {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_icoconfug.xml.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/icoconfug.xml"
     },
@@ -286,17 +276,12 @@
         "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-<<<<<<< HEAD
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_card_view_comentarios.xml.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/card_view_comentarios.xml"
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_limoooo.png.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/limoooo.png"
-=======
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-debug-58:\\mipmap-xxxhdpi\\ic_launcher.png"
->>>>>>> 86f2f10752986bb62d554dcb68fcc6d38120e1ff
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-mdpi_ic_launcher_foreground.png.flat",
@@ -307,17 +292,8 @@
         "source": "com.example.tienda_de_rosita.app-debug-58:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_manoos.png.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/manoos.png"
-=======
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\layout_card_view_compras.xml.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-59:\\layout\\card_view_compras.xml"
-    },
-    {
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\drawable_personaaa.png.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-59:\\drawable\\personaaa.png"
->>>>>>> 86f2f10752986bb62d554dcb68fcc6d38120e1ff
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
@@ -336,6 +312,10 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/font/sourcesanstreslight.ttf"
     },
     {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_ic_baseline_delete_forever_24.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/ic_baseline_delete_forever_24.xml"
+    },
+    {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_torta.png.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable-v24/torta.png"
     },
@@ -352,28 +332,11 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/activity_registro.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_pudin.xml.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_pudin.xml"
-=======
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\layout_fragment_menu.xml.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-59:\\layout\\fragment_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-debug-58:\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\drawable_ic_baseline_add_shopping_cart_24.xml.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-59:\\drawable\\ic_baseline_add_shopping_cart_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-merged_res-57:\\layout_fragment_muffin.xml.flat",
-        "source": "C:\\Users\\Jax\\.gradle\\daemon\\7.4\\com.example.tienda_de_rosita.app-main-59:\\layout\\fragment_muffin.xml"
->>>>>>> 86f2f10752986bb62d554dcb68fcc6d38120e1ff
     }
 ]

@@ -3183,6 +3183,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iva
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3367,8 +3368,10 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sigiva
 id signo
 id signod
+id sigsub
 id sin
 id skipCollapsed
 id skipped
@@ -3403,6 +3406,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id subtotal
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3460,6 +3464,8 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id texto
+id textoiva
+id textosub
 id textt
 id time
 id title
