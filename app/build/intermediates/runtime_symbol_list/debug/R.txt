@@ -2865,6 +2865,9 @@ int id accessibility_custom_action_9 0x7f0a002f
 int id actionDown 0x7f0a0030
 int id actionDownUp 0x7f0a0031
 int id actionUp 0x7f0a0032
+int id action_agregarPFragment_to_carritoFragment 0x7f0a02cb
+int id action_agregarPFragment_to_configuracionFragment 0x7f0a02cc
+int id action_agregarPFragment_to_menuFragment 0x7f0a02cd
 int id action_bar 0x7f0a0033
 int id action_bar_activity_content 0x7f0a0034
 int id action_bar_container 0x7f0a0035
@@ -2907,6 +2910,7 @@ int id action_informacionFragment_to_carritoFragment 0x7f0a0059
 int id action_informacionFragment_to_configuracionFragment 0x7f0a005a
 int id action_informacionFragment_to_menuFragment 0x7f0a005b
 int id action_menuFragment_self 0x7f0a005c
+int id action_menuFragment_to_agregarPFragment 0x7f0a02ce
 int id action_menuFragment_to_batidoFragment 0x7f0a005d
 int id action_menuFragment_to_carritoFragment 0x7f0a005e
 int id action_menuFragment_to_configuracionFragment 0x7f0a005f
@@ -2954,6 +2958,8 @@ int id activity_chooser_view_content 0x7f0a0088
 int id add 0x7f0a0089
 int id adjust_height 0x7f0a008a
 int id adjust_width 0x7f0a008b
+int id agregarPFragment 0x7f0a02cf
+int id agregarp 0x7f0a02ca
 int id alertTitle 0x7f0a008c
 int id aligned 0x7f0a008d
 int id all 0x7f0a008e
@@ -3008,6 +3014,7 @@ int id browser_actions_menu_items 0x7f0a00be
 int id browser_actions_menu_view 0x7f0a00bf
 int id buttonNavigationMenu 0x7f0a00c0
 int id buttonPanel 0x7f0a00c1
+int id buttonagregarproduc 0x7f0a02de
 int id buttoncamara 0x7f0a00c2
 int id buttongaleria 0x7f0a00c3
 int id buttonsalirc 0x7f0a00c4
@@ -3073,6 +3080,7 @@ int id decor_content_parent 0x7f0a00ff
 int id default_activity_button 0x7f0a0100
 int id deltaRelative 0x7f0a0101
 int id dependency_ordering 0x7f0a0102
+int id descproduc 0x7f0a02da
 int id descripcion 0x7f0a0103
 int id design_bottom_sheet 0x7f0a0104
 int id design_menu_item_action_area 0x7f0a0105
@@ -3279,6 +3287,7 @@ int id noState 0x7f0a01cd
 int id nombre 0x7f0a01ce
 int id nombrec 0x7f0a01cf
 int id nombreperfil 0x7f0a01d0
+int id nombreproduc 0x7f0a02db
 int id nombresregistro 0x7f0a01d1
 int id none 0x7f0a01d2
 int id normal 0x7f0a01d3
@@ -3436,6 +3445,9 @@ int id textSpacerNoTitle 0x7f0a026a
 int id textStart 0x7f0a026b
 int id textTop 0x7f0a026c
 int id textView 0x7f0a026d
+int id textView10 0x7f0a02d5
+int id textView11 0x7f0a02d6
+int id textView12 0x7f0a02d7
 int id textView15 0x7f0a026e
 int id textView2 0x7f0a026f
 int id textView20 0x7f0a0270
@@ -3448,10 +3460,12 @@ int id textView27 0x7f0a0276
 int id textView28 0x7f0a0277
 int id textView29 0x7f0a0278
 int id textView3 0x7f0a0279
+int id textView4 0x7f0a02d8
 int id textView5 0x7f0a027a
 int id textView6 0x7f0a027b
 int id textView7 0x7f0a027c
 int id textView8 0x7f0a027d
+int id textView9 0x7f0a02d9
 int id textWatcher 0x7f0a027e
 int id text_input_end_icon 0x7f0a027f
 int id text_input_error_icon 0x7f0a0280
@@ -3495,9 +3509,11 @@ int id unchecked 0x7f0a02a5
 int id uniform 0x7f0a02a6
 int id unlabeled 0x7f0a02a7
 int id up 0x7f0a02a8
+int id urlproduc 0x7f0a02dc
 int id useLogo 0x7f0a02a9
 int id usuarioperfil 0x7f0a02aa
 int id usuarioregistro 0x7f0a02ab
+int id valorproduc 0x7f0a02dd
 int id vertical_only 0x7f0a02ac
 int id view_offset_helper 0x7f0a02ad
 int id view_transition 0x7f0a02ae
@@ -3677,6 +3693,7 @@ int layout design_navigation_menu 0x7f0d0031
 int layout design_navigation_menu_item 0x7f0d0032
 int layout design_text_input_end_icon 0x7f0d0033
 int layout design_text_input_start_icon 0x7f0d0034
+int layout fragment_agregar_p 0x7f0d0080
 int layout fragment_batido 0x7f0d0035
 int layout fragment_carrito 0x7f0d0036
 int layout fragment_comentarios 0x7f0d0037

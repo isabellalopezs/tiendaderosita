@@ -36,12 +36,15 @@ class menuFragment : Fragment(), OnBookItemClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         firebaseAuth= Firebase.auth
+
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+
         val view =inflater.inflate(R.layout.fragment_menu, container, false)
         recyclerProduc= view.findViewById(R.id.recyclerview)
         adapter=ProductosAdapter(requireContext(), this)
@@ -49,7 +52,9 @@ class menuFragment : Fragment(), OnBookItemClickListener {
         recyclerProduc.adapter=adapter
         observeData()
         return view
+
     }
+
     fun observeData(){
         viewmodel.productData().observe(viewLifecycleOwner, Observer {
             adapter.setListData(it)
@@ -66,6 +71,10 @@ class menuFragment : Fragment(), OnBookItemClickListener {
                 R.id.homem -> findNavController().navigate(R.id.action_menuFragment_self)
                 R.id.carritom -> findNavController().navigate(R.id.action_menuFragment_to_carritoFragment)
             }
+        }
+        val btmagre= view.findViewById<TextView>(R.id.agregarp)
+        btmagre.setOnClickListener{
+            findNavController().navigate(R.id.action_menuFragment_to_agregarPFragment)
         }
     }
 
@@ -85,8 +94,6 @@ class menuFragment : Fragment(), OnBookItemClickListener {
                 Toast.makeText(context,"producto añadido al carrito", Toast.LENGTH_SHORT).show()
             }
     }
-
-
 }
             /*
             val btmpt=view.findViewById<Button>(R.id.buttonTortaFria)
