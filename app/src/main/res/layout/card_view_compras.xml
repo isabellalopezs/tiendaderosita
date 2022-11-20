@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/cardViewProductos"
+    android:id="@+id/cardViewCompras"
     android:layout_margin="12dp"
-    app:cardBackgroundColor="@color/rosado_1"
+    app:cardBackgroundColor="@color/morado_1"
     app:contentPadding="4dp"
     app:cardCornerRadius="20dp">
 
@@ -77,29 +77,14 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="4dp">
         </TextView>
-        <TextView
-            android:id="@+id/descripcion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Esto es una descripcion"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:fontFamily="@font/sourcesanstreslight"
-            android:textAlignment="center"
-            android:layout_below="@+id/image"
-            android:textSize="22dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="15dp">
-        </TextView>
         <ImageButton
-            android:id="@+id/carrito"
+            android:id="@+id/eliminar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:src="@drawable/ic_baseline_add_shopping_cart_24"
-            android:background="@color/morado_1"
-            >
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            android:background="@color/red">
         </ImageButton>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
