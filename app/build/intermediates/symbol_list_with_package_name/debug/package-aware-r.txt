@@ -1940,6 +1940,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color rosado_1
@@ -2708,6 +2709,8 @@ drawable gelatina
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable homeico
+drawable ic_baseline_add_shopping_cart_24
+drawable ic_baseline_delete_forever_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2876,6 +2879,7 @@ id action_batidoFragment_to_menuFragment
 id action_carritoFragment_self
 id action_carritoFragment_to_configuracionFragment
 id action_carritoFragment_to_menuFragment
+id action_carritoFragment_to_menuFragment2
 id action_comentariosFragment2_to_carritoFragment
 id action_comentariosFragment2_to_configuracionFragment
 id action_comentariosFragment2_to_menuFragment
@@ -3003,7 +3007,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
 id buttonNavigationMenu
 id buttonPanel
 id buttoncamara
@@ -3012,8 +3015,10 @@ id buttonsalirc
 id cache_measures
 id callMeasure
 id cancel_button
+id cardViewCompras
 id cardViewProductos
 id card_comentario
+id carrito
 id carritoFragment
 id carritom
 id carryVelocity
@@ -3099,8 +3104,10 @@ id east
 id edicionperfil
 id edit_query
 id elastic
+id eliminar
 id emailc
 id embed
+id encabezado
 id end
 id endToStart
 id enterAlways
@@ -3306,15 +3313,18 @@ id pin
 id position
 id postLayout
 id precio
+id preciototal
 id pressed
 id progress_circular
 id progress_horizontal
 id pudinFragment
 id radio
 id ratio
+id realizar
 id rectangles
 id recyclerview
 id recyclerviewcom
+id recyclerviewcompras
 id registrate_log_bt
 id registrate_registro_bt
 id restart
@@ -3358,6 +3368,7 @@ id showCustom
 id showHome
 id showTitle
 id signo
+id signod
 id sin
 id skipCollapsed
 id skipped
@@ -3422,9 +3433,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView12
-id textView13
-id textView14
 id textView15
 id textView2
 id textView20
@@ -3437,7 +3445,6 @@ id textView27
 id textView28
 id textView29
 id textView3
-id textView4
 id textView5
 id textView6
 id textView7
@@ -3452,6 +3459,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id texto
 id textt
 id time
 id title
@@ -3646,6 +3654,7 @@ layout activity_registro
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout card_view_comentarios
+layout card_view_compras
 layout card_view_productos
 layout custom_dialog
 layout design_bottom_navigation_item

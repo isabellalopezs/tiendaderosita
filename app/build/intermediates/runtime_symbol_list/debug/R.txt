@@ -1939,6 +1939,7 @@ int color primary_text_default_material_dark 0x7f06025d
 int color primary_text_default_material_light 0x7f06025e
 int color primary_text_disabled_material_dark 0x7f06025f
 int color primary_text_disabled_material_light 0x7f060260
+int color red 0x7f060273
 int color ripple_material_dark 0x7f060261
 int color ripple_material_light 0x7f060262
 int color rosado_1 0x7f060263
@@ -2707,6 +2708,8 @@ int drawable gelatina 0x7f08009e
 int drawable googleg_disabled_color_18 0x7f08009f
 int drawable googleg_standard_color_18 0x7f0800a0
 int drawable homeico 0x7f0800a1
+int drawable ic_baseline_add_shopping_cart_24 0x7f080108
+int drawable ic_baseline_delete_forever_24 0x7f080109
 int drawable ic_clock_black_24dp 0x7f0800a2
 int drawable ic_keyboard_black_24dp 0x7f0800a3
 int drawable ic_launcher_background 0x7f0800a4
@@ -2875,6 +2878,7 @@ int id action_batidoFragment_to_menuFragment 0x7f0a003c
 int id action_carritoFragment_self 0x7f0a003d
 int id action_carritoFragment_to_configuracionFragment 0x7f0a003e
 int id action_carritoFragment_to_menuFragment 0x7f0a003f
+int id action_carritoFragment_to_menuFragment2 0x7f0a02ca
 int id action_comentariosFragment2_to_carritoFragment 0x7f0a0040
 int id action_comentariosFragment2_to_configuracionFragment 0x7f0a0041
 int id action_comentariosFragment2_to_menuFragment 0x7f0a0042
@@ -3002,7 +3006,6 @@ int id browser_actions_menu_item_icon 0x7f0a00bb
 int id browser_actions_menu_item_text 0x7f0a00bc
 int id browser_actions_menu_items 0x7f0a00bd
 int id browser_actions_menu_view 0x7f0a00be
-int id button 0x7f0a00bf
 int id buttonNavigationMenu 0x7f0a00c0
 int id buttonPanel 0x7f0a00c1
 int id buttoncamara 0x7f0a00c2
@@ -3011,8 +3014,10 @@ int id buttonsalirc 0x7f0a00c4
 int id cache_measures 0x7f0a00c5
 int id callMeasure 0x7f0a00c6
 int id cancel_button 0x7f0a00c7
+int id cardViewCompras 0x7f0a02c4
 int id cardViewProductos 0x7f0a00c8
 int id card_comentario 0x7f0a02bc
+int id carrito 0x7f0a02c1
 int id carritoFragment 0x7f0a00c9
 int id carritom 0x7f0a00ca
 int id carryVelocity 0x7f0a00cb
@@ -3098,8 +3103,10 @@ int id east 0x7f0a0118
 int id edicionperfil 0x7f0a0119
 int id edit_query 0x7f0a011a
 int id elastic 0x7f0a011b
+int id eliminar 0x7f0a02c2
 int id emailc 0x7f0a011c
 int id embed 0x7f0a011d
+int id encabezado 0x7f0a02c5
 int id end 0x7f0a011e
 int id endToStart 0x7f0a011f
 int id enterAlways 0x7f0a0120
@@ -3305,15 +3312,18 @@ int id pin 0x7f0a01e6
 int id position 0x7f0a01e7
 int id postLayout 0x7f0a01e8
 int id precio 0x7f0a01e9
+int id preciototal 0x7f0a02c6
 int id pressed 0x7f0a01ea
 int id progress_circular 0x7f0a01eb
 int id progress_horizontal 0x7f0a01ec
 int id pudinFragment 0x7f0a01ed
 int id radio 0x7f0a01ee
 int id ratio 0x7f0a01ef
+int id realizar 0x7f0a02c7
 int id rectangles 0x7f0a01f0
 int id recyclerview 0x7f0a01f1
 int id recyclerviewcom 0x7f0a02bf
+int id recyclerviewcompras 0x7f0a02c3
 int id registrate_log_bt 0x7f0a01f2
 int id registrate_registro_bt 0x7f0a01f3
 int id restart 0x7f0a01f4
@@ -3357,6 +3367,7 @@ int id showCustom 0x7f0a0219
 int id showHome 0x7f0a021a
 int id showTitle 0x7f0a021b
 int id signo 0x7f0a021c
+int id signod 0x7f0a02c8
 int id sin 0x7f0a021d
 int id skipCollapsed 0x7f0a021e
 int id skipped 0x7f0a021f
@@ -3421,9 +3432,6 @@ int id textSpacerNoTitle 0x7f0a0259
 int id textStart 0x7f0a025a
 int id textTop 0x7f0a025b
 int id textView 0x7f0a025c
-int id textView12 0x7f0a025d
-int id textView13 0x7f0a025e
-int id textView14 0x7f0a025f
 int id textView15 0x7f0a0260
 int id textView2 0x7f0a0261
 int id textView20 0x7f0a0262
@@ -3436,7 +3444,6 @@ int id textView27 0x7f0a0268
 int id textView28 0x7f0a0269
 int id textView29 0x7f0a026a
 int id textView3 0x7f0a026b
-int id textView4 0x7f0a026c
 int id textView5 0x7f0a026d
 int id textView6 0x7f0a026e
 int id textView7 0x7f0a026f
@@ -3451,6 +3458,7 @@ int id textinput_helper_text 0x7f0a0277
 int id textinput_placeholder 0x7f0a0278
 int id textinput_prefix_text 0x7f0a0279
 int id textinput_suffix_text 0x7f0a027a
+int id texto 0x7f0a02c9
 int id textt 0x7f0a027b
 int id time 0x7f0a027c
 int id title 0x7f0a027d
@@ -3645,6 +3653,7 @@ int layout activity_registro 0x7f0d001f
 int layout browser_actions_context_menu_page 0x7f0d0020
 int layout browser_actions_context_menu_row 0x7f0d0021
 int layout card_view_comentarios 0x7f0d007e
+int layout card_view_compras 0x7f0d007f
 int layout card_view_productos 0x7f0d0022
 int layout custom_dialog 0x7f0d0023
 int layout design_bottom_navigation_item 0x7f0d0024
