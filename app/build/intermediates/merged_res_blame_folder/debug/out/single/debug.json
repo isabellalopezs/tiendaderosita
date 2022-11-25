@@ -92,6 +92,10 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_terminos.xml"
     },
     {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_card_view_compras.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/card_view_compras.xml"
+    },
+    {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_postredos.png.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/postredos.png"
     },
@@ -118,6 +122,10 @@
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_icocarrito.xml.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/icocarrito.xml"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_agregar_p.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_agregar_p.xml"
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/layout_fragment_informacion.xml.flat",
@@ -240,6 +248,10 @@
         "source": "com.example.tienda_de_rosita.app-main-59:/layout/fragment_menu.xml"
     },
     {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_ic_baseline_add_shopping_cart_24.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/ic_baseline_add_shopping_cart_24.xml"
+    },
+    {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_icoconfug.xml.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/drawable/icoconfug.xml"
     },
@@ -302,6 +314,10 @@
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/font_sourcesanstreslight.ttf.flat",
         "source": "com.example.tienda_de_rosita.app-main-59:/font/sourcesanstreslight.ttf"
+    },
+    {
+        "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable_ic_baseline_delete_forever_24.xml.flat",
+        "source": "com.example.tienda_de_rosita.app-main-59:/drawable/ic_baseline_delete_forever_24.xml"
     },
     {
         "merged": "com.example.tienda_de_rosita.app-merged_res-57:/drawable-v24_torta.png.flat",

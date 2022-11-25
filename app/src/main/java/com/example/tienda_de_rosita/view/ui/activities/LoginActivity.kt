@@ -40,7 +40,6 @@ class LoginActivity : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     val user = firebaseAuth.currentUser
-                    Toast.makeText(baseContext, user?.uid.toString(), Toast.LENGTH_SHORT).show()
                     Toast.makeText(baseContext, "Ingreso exitoso", Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this, home::class.java))
                 } else {

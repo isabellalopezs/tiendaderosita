@@ -2,6 +2,7 @@ package com.example.tienda_de_rosita.view.ui.fragments
 
 import android.app.AlertDialog
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -11,14 +12,18 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil.setContentView
 import androidx.fragment.app.setFragmentResult
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tienda_de_rosita.R
 import com.example.tienda_de_rosita.view.adapter.ComentariosAdapter
+import com.example.tienda_de_rosita.viewmodel.CommentViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.firestore.FirebaseFirestore
 import java.lang.ref.PhantomReference
 
 
@@ -28,8 +33,10 @@ class ComentariosFragment : Fragment() {
     lateinit var comentario:EditText
     lateinit var dbReference: DatabaseReference
     lateinit var enviarc:Button
-    lateinit  var database: FirebaseDatabase
+    val database: FirebaseFirestore=FirebaseFirestore.getInstance()
     lateinit var recyclerCom: RecyclerView
+    lateinit var adapter: ComentariosAdapter
+    private val viewmodel by lazy { ViewModelProvider(this).get(CommentViewModel::class.java) }
 
 
 
@@ -40,17 +47,23 @@ class ComentariosFragment : Fragment() {
         // Inflate the layout for this fragment
         val view=inflater.inflate(R.layout.fragment_comentarios, container, false)
         recyclerCom=view.findViewById(R.id.recyclerviewcom)
-        val adapterComentarios=ComentariosAdapter()
+        adapter=ComentariosAdapter(requireContext())
         recyclerCom.layoutManager=LinearLayoutManager(context)
-        recyclerCom.adapter=adapterComentarios
+        recyclerCom.adapter=adapter
+        observeData()
         return view
+    }
+
+    fun observeData(){
+        viewmodel.commentData().observe(viewLifecycleOwner, Observer{
+            adapter.setListDataCom(it)
+            adapter.notifyDataSetChanged()
+        })
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        database=FirebaseDatabase.getInstance()
-        dbReference=database.reference.child("Comentarios")
         nombre= view.findViewById(R.id.nombrec)
         correo=view.findViewById(R.id.emailc)
         comentario=view.findViewById(R.id.comentariosc)
@@ -78,11 +91,17 @@ class ComentariosFragment : Fragment() {
         val nameb:String=correo.text.toString()
         val namec:String=comentario.text.toString()
 
-        val userdb=dbReference.child(toString())
-        userdb.child("Nombre").setValue(namea)
-        userdb.child("Correo").setValue(nameb)
-        userdb.child("Comentarios").setValue(namec)
-        Toast.makeText(context, "Gracias por su comentario", Toast.LENGTH_SHORT).show()
+        val comment= hashMapOf(
+            "Nombre" to namea,
+            "Correo" to nameb,
+            "Comentario" to namec
+        )
+        database.collection("comentarios")
+            .document(nameb)
+            .set(comment)
+            .addOnSuccessListener {
+                Toast.makeText(context,"Comentario enviado.",Toast.LENGTH_SHORT).show()
+            }
     }
 
 

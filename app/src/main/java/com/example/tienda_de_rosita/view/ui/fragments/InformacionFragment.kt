@@ -64,12 +64,15 @@ class InformacionFragment : Fragment(), OnMapReadyCallback {
             startActivity(openURL)
         }
 
+
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
         map=googleMap
         marker()
     }
+
+
 
     private  fun marker(){
         val coordenadas= com.google.android.gms.maps.model.LatLng(4.411978, -76.156770)

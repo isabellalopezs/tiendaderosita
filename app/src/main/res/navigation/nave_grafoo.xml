@@ -49,6 +49,9 @@
         <action
             android:id="@+id/action_menuFragment_to_batidoFragment"
             app:destination="@id/batidoFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_agregarPFragment"
+            app:destination="@id/agregarPFragment" />
     </fragment>
     <fragment
         android:id="@+id/configuracionFragment"
@@ -154,6 +157,9 @@
         <action
             android:id="@+id/action_carritoFragment_self"
             app:destination="@id/carritoFragment" />
+        <action
+            android:id="@+id/action_carritoFragment_to_menuFragment2"
+            app:destination="@id/menuFragment" />
     </fragment>
     <activity
         android:id="@+id/loginActivity"
@@ -309,5 +315,20 @@
         <action
             android:id="@+id/action_batidoFragment_to_configuracionFragment"
             app:destination="@id/configuracionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarPFragment"
+        android:name="com.example.tienda_de_rosita.view.ui.fragments.AgregarPFragment"
+        android:label="fragment_agregar_p"
+        tools:layout="@layout/fragment_agregar_p" >
+        <action
+            android:id="@+id/action_agregarPFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_agregarPFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_agregarPFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
     </fragment>
 </navigation>

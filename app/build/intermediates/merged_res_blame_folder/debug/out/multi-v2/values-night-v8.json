@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values-night\\strings.xml",
-                    "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "120,57",
-                        "endColumns": "89,61",
-                        "endOffsets": "205,114"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,145",
-                        "endColumns": "89,61",
-                        "endOffsets": "140,202"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\Desktop\\Ciclo4\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -54,6 +37,23 @@
                         "endLines": "47",
                         "endColumns": "12",
                         "endOffsets": "4055"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\Tienda_Rosita\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "120,57",
+                        "endColumns": "89,61",
+                        "endOffsets": "205,114"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,145",
+                        "endColumns": "89,61",
+                        "endOffsets": "140,202"
                     }
                 },
                 {
